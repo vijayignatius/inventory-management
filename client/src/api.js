@@ -33,13 +33,23 @@ export const api = {
     return response.data
   },
 
-  async getDemandForecasts() {
-    const response = await axios.get(`${API_BASE_URL}/demand`)
+  async getDemandForecasts(filters = {}) {
+    const params = new URLSearchParams()
+    // Backend now supports warehouse and category filters for demand forecasts
+    if (filters.warehouse && filters.warehouse !== 'all') params.append('warehouse', filters.warehouse)
+    if (filters.category && filters.category !== 'all') params.append('category', filters.category)
+
+    const response = await axios.get(`${API_BASE_URL}/demand?${params.toString()}`)
     return response.data
   },
 
-  async getBacklog() {
-    const response = await axios.get(`${API_BASE_URL}/backlog`)
+  async getBacklog(filters = {}) {
+    const params = new URLSearchParams()
+    // Backend now supports warehouse and category filters for backlog items
+    if (filters.warehouse && filters.warehouse !== 'all') params.append('warehouse', filters.warehouse)
+    if (filters.category && filters.category !== 'all') params.append('category', filters.category)
+
+    const response = await axios.get(`${API_BASE_URL}/backlog?${params.toString()}`)
     return response.data
   },
 
@@ -69,8 +79,12 @@ export const api = {
     return response.data
   },
 
-  async getTransactions() {
-    const response = await axios.get(`${API_BASE_URL}/spending/transactions`)
+  async getTransactions(filters = {}) {
+    const params = new URLSearchParams()
+    // Backend supports warehouse filter for transactions
+    if (filters.warehouse && filters.warehouse !== 'all') params.append('warehouse', filters.warehouse)
+
+    const response = await axios.get(`${API_BASE_URL}/spending/transactions?${params.toString()}`)
     return response.data
   },
 
@@ -101,6 +115,40 @@ export const api = {
 
   async getPurchaseOrderByBacklogItem(backlogItemId) {
     const response = await axios.get(`${API_BASE_URL}/purchase-orders/${backlogItemId}`)
+    return response.data
+  },
+
+  async getRestockingOrders() {
+    const response = await axios.get(`${API_BASE_URL}/restocking-orders`)
+    return response.data
+  },
+
+  async createRestockingOrder(payload) {
+    const response = await axios.post(`${API_BASE_URL}/restocking-orders`, payload)
+    return response.data
+  },
+
+  async getQuarterlyReports(filters = {}) {
+    const params = new URLSearchParams()
+    // Backend supports all four filters for quarterly reports
+    if (filters.warehouse && filters.warehouse !== 'all') params.append('warehouse', filters.warehouse)
+    if (filters.category && filters.category !== 'all') params.append('category', filters.category)
+    if (filters.status && filters.status !== 'all') params.append('status', filters.status)
+    if (filters.month && filters.month !== 'all') params.append('month', filters.month)
+
+    const response = await axios.get(`${API_BASE_URL}/reports/quarterly?${params.toString()}`)
+    return response.data
+  },
+
+  async getMonthlyTrends(filters = {}) {
+    const params = new URLSearchParams()
+    // Backend supports all four filters for monthly trends
+    if (filters.warehouse && filters.warehouse !== 'all') params.append('warehouse', filters.warehouse)
+    if (filters.category && filters.category !== 'all') params.append('category', filters.category)
+    if (filters.status && filters.status !== 'all') params.append('status', filters.status)
+    if (filters.month && filters.month !== 'all') params.append('month', filters.month)
+
+    const response = await axios.get(`${API_BASE_URL}/reports/monthly-trends?${params.toString()}`)
     return response.data
   }
 }

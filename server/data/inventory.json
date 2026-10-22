@@ -382,5 +382,29 @@
     "unit_cost": 185.50,
     "location": "Warehouse C-11",
     "last_updated": "2025-09-21T15:20:00"
+  },
+  {
+    "id": "33",
+    "sku": "LAC-305",
+    "name": "Linear Actuator 12V",
+    "category": "Actuators",
+    "warehouse": "San Francisco",
+    "quantity_on_hand": 85,
+    "reorder_point": 40,
+    "unit_cost": 165.00,
+    "location": "Warehouse A-18",
+    "last_updated": "2025-09-30T10:30:00"
+  },
+  {
+    "id": "34",
+    "sku": "PCB-004",
+    "name": "Flexible PCB Assembly",
+    "category": "Circuit Boards",
+    "warehouse": "Tokyo",
+    "quantity_on_hand": 240,
+    "reorder_point": 120,
+    "unit_cost": 39.50,
+    "location": "Warehouse C-12",
+    "last_updated": "2025-09-30T10:30:00"
   }
 ]

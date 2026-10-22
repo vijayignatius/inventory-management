@@ -91,38 +91,23 @@ export default {
   setup() {
     const loading = ref(true)
     const error = ref(null)
-    const allBacklogItems = ref([])
-    const inventoryItems = ref([])
+    const backlogItems = ref([])
 
     // Use shared filters
     const { selectedLocation, selectedCategory, getCurrentFilters } = useFilters()
-
-    // Filter backlog based on inventory filters
-    const backlogItems = computed(() => {
-      if (selectedLocation.value === 'all' && selectedCategory.value === 'all') {
-        return allBacklogItems.value
-      }
-
-      // Get SKUs of items that match the filters
-      const validSkus = new Set(inventoryItems.value.map(item => item.sku))
-      return allBacklogItems.value.filter(b => validSkus.has(b.item_sku))
-    })
 
     const loadBacklog = async () => {
       try {
         loading.value = true
         const filters = getCurrentFilters()
 
-        const [backlogData, inventoryData] = await Promise.all([
-          api.getBacklog(),
-          api.getInventory({
-            warehouse: filters.warehouse,
-            category: filters.category
-          })
-        ])
+        // Backend now filters backlog by warehouse and category directly
+        const backlogData = await api.getBacklog({
+          warehouse: filters.warehouse,
+          category: filters.category
+        })
 
-        allBacklogItems.value = backlogData
-        inventoryItems.value = inventoryData
+        backlogItems.value = backlogData
       } catch (err) {
         error.value = 'Failed to load backlog: ' + err.message
       } finally {
