@@ -37,3 +37,8 @@ purchase_orders = load_json_file('purchase_orders.json')
 
 # All data is now loaded from JSON files in the data/ directory
 # This allows for easier maintenance and updates of the sample data
+
+# Restocking orders submitted at runtime. In-memory only (lost on restart).
+# Always mutate in place (append/clear), never reassign: main.py imports this
+# list object by reference, and tests clear it between runs.
+restocking_orders = []

@@ -35,6 +35,11 @@
         </div>
       </div>
 
+      <!-- Filter Note -->
+      <div v-if="hasCostFilterNote" class="filter-note">
+        {{ t('finance.costFilterNote') }}
+      </div>
+
       <!-- Monthly Revenue vs Cost Chart -->
       <div class="card chart-card">
         <div class="card-header">
@@ -199,7 +204,7 @@ export default {
     const selectedCostData = ref(null)
 
     // Use shared filters
-    const { selectedPeriod, getCurrentFilters } = useFilters()
+    const { selectedPeriod, selectedLocation, selectedCategory, selectedStatus, getCurrentFilters } = useFilters()
 
     // Monthly spending chart always shows all months (not filtered)
     const monthlySpending = computed(() => {
@@ -339,6 +344,11 @@ export default {
       return revenueByMonth
     })
 
+    // Check if Location or Category filters are active
+    const hasCostFilterNote = computed(() => {
+      return selectedLocation.value !== 'all' || selectedCategory.value !== 'all'
+    })
+
     // Max value for chart scaling
     const maxRevenueValue = computed(() => {
       const maxRevenue = Math.max(...monthlyRevenue.value.map(m => m.revenue))
@@ -350,12 +360,23 @@ export default {
     const loadData = async () => {
       try {
         loading.value = true
+        const filters = getCurrentFilters()
+
         const [summaryRes, monthlyRes, categoryRes, transactionsRes, ordersRes] = await Promise.all([
           api.getSpendingSummary(),
           api.getMonthlySpending(),
           api.getCategorySpending(),
-          api.getTransactions(),
-          api.getOrders()
+          // Backend filters transactions by warehouse
+          api.getTransactions({
+            warehouse: filters.warehouse
+          }),
+          // Backend filters orders by warehouse, category, and status
+          // Don't send month param here - monthly revenue chart needs all months (client-side filtering instead)
+          api.getOrders({
+            warehouse: filters.warehouse,
+            category: filters.category,
+            status: filters.status
+          })
         ])
 
         summaryData.value = summaryRes
@@ -370,9 +391,9 @@ export default {
       }
     }
 
-    // Watch for period filter changes
-    watch([selectedPeriod], () => {
-      // Data will automatically update via computed properties
+    // Watch for all filter changes (orders and transactions need reloading when filters change)
+    watch([selectedPeriod, selectedLocation, selectedCategory, selectedStatus], () => {
+      loadData()
     })
 
     const formatCurrency = (value) => {
@@ -485,6 +506,7 @@ export default {
       showCostModal,
       selectedCostData,
       showCostDetail,
+      hasCostFilterNote,
       Math
     }
   }
@@ -511,6 +533,18 @@ export default {
 .change-icon {
   font-weight: 700;
   font-size: 1rem;
+}
+
+.filter-note {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 1rem;
+  background: #f8fafc;
+  border-left: 3px solid #94a3b8;
+  border-radius: 4px;
+  color: #64748b;
+  font-size: 0.875rem;
+  line-height: 1.5;
 }
 
 .chart-card {

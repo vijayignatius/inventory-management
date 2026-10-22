@@ -6,7 +6,11 @@
     "current_demand": 300,
     "forecasted_demand": 450,
     "trend": "increasing",
-    "period": "Next 30 days"
+    "period": "Next 30 days",
+    "unit_cost": 12.5,
+    "lead_time_days": 7,
+    "warehouse": "Tokyo",
+    "category": "Actuators"
   },
   {
     "id": "2",
@@ -15,7 +19,11 @@
     "current_demand": 150,
     "forecasted_demand": 152,
     "trend": "stable",
-    "period": "Next 30 days"
+    "period": "Next 30 days",
+    "unit_cost": 45.0,
+    "lead_time_days": 10,
+    "warehouse": "London",
+    "category": "Actuators"
   },
   {
     "id": "3",
@@ -24,7 +32,11 @@
     "current_demand": 500,
     "forecasted_demand": 600,
     "trend": "increasing",
-    "period": "Next 30 days"
+    "period": "Next 30 days",
+    "unit_cost": 8.75,
+    "lead_time_days": 5,
+    "warehouse": "San Francisco",
+    "category": "Actuators"
   },
   {
     "id": "4",
@@ -33,7 +45,11 @@
     "current_demand": 50,
     "forecasted_demand": 35,
     "trend": "decreasing",
-    "period": "Next 30 days"
+    "period": "Next 30 days",
+    "unit_cost": 320.0,
+    "lead_time_days": 21,
+    "warehouse": "Tokyo",
+    "category": "Actuators"
   },
   {
     "id": "5",
@@ -42,7 +58,11 @@
     "current_demand": 800,
     "forecasted_demand": 950,
     "trend": "increasing",
-    "period": "Next 30 days"
+    "period": "Next 30 days",
+    "unit_cost": 6.4,
+    "lead_time_days": 4,
+    "warehouse": "London",
+    "category": "Actuators"
   },
   {
     "id": "6",
@@ -51,7 +71,11 @@
     "current_demand": 120,
     "forecasted_demand": 121,
     "trend": "stable",
-    "period": "Next 30 days"
+    "period": "Next 30 days",
+    "unit_cost": 68.0,
+    "lead_time_days": 12,
+    "warehouse": "San Francisco",
+    "category": "Actuators"
   },
   {
     "id": "7",
@@ -60,7 +84,11 @@
     "current_demand": 250,
     "forecasted_demand": 252,
     "trend": "stable",
-    "period": "Next 30 days"
+    "period": "Next 30 days",
+    "unit_cost": 18.99,
+    "lead_time_days": 6,
+    "warehouse": "San Francisco",
+    "category": "Power Supplies"
   },
   {
     "id": "8",
@@ -69,7 +97,11 @@
     "current_demand": 180,
     "forecasted_demand": 182,
     "trend": "stable",
-    "period": "Next 30 days"
+    "period": "Next 30 days",
+    "unit_cost": 22.0,
+    "lead_time_days": 8,
+    "warehouse": "London",
+    "category": "Sensors"
   },
   {
     "id": "9",
@@ -78,6 +110,10 @@
     "current_demand": 95,
     "forecasted_demand": 96,
     "trend": "stable",
-    "period": "Next 30 days"
+    "period": "Next 30 days",
+    "unit_cost": 85.0,
+    "lead_time_days": 14,
+    "warehouse": "Tokyo",
+    "category": "Controllers"
   }
 ]

@@ -13,7 +13,10 @@
         <div class="card-header">
           <h3 class="card-title">Quarterly Performance</h3>
         </div>
-        <div class="table-container">
+        <div v-if="quarterlyData.length === 0" class="no-data">
+          No quarterly data available for the selected filters.
+        </div>
+        <div v-else class="table-container">
           <table class="reports-table">
             <thead>
               <tr>
@@ -46,7 +49,10 @@
         <div class="card-header">
           <h3 class="card-title">Monthly Revenue Trend</h3>
         </div>
-        <div class="chart-container">
+        <div v-if="monthlyData.length === 0" class="no-data">
+          No monthly data available for the selected filters.
+        </div>
+        <div v-else class="chart-container">
           <div class="bar-chart">
             <div v-for="(month, index) in monthlyData" :key="index" class="bar-wrapper">
               <div class="bar-container">
@@ -67,7 +73,10 @@
         <div class="card-header">
           <h3 class="card-title">Month-over-Month Analysis</h3>
         </div>
-        <div class="table-container">
+        <div v-if="monthlyData.length === 0" class="no-data">
+          No monthly data available for the selected filters.
+        </div>
+        <div v-else class="table-container">
           <table class="reports-table">
             <thead>
               <tr>
@@ -117,7 +126,7 @@
         </div>
         <div class="stat-card">
           <div class="stat-label">Best Performing Quarter</div>
-          <div class="stat-value">{{ bestQuarter }}</div>
+          <div class="stat-value">{{ bestQuarter || 'N/A' }}</div>
         </div>
       </div>
     </div>
@@ -125,192 +134,157 @@
 </template>
 
 <script>
-import axios from 'axios'
+import { ref, computed, onMounted, watch } from 'vue'
+import { api } from '../api'
+import { useFilters } from '../composables/useFilters'
 
 export default {
   name: 'Reports',
-  data() {
-    return {
-      loading: true,
-      error: null,
-      quarterlyData: [],
-      monthlyData: [],
-      totalRevenue: 0,
-      avgMonthlyRevenue: 0,
-      totalOrders: 0,
-      bestQuarter: ''
-    }
-  },
-  mounted() {
-    console.log('Reports component mounted')
-    this.loadData()
-  },
-  methods: {
-    async loadData() {
-      console.log('Loading reports data...')
+  setup() {
+    const loading = ref(true)
+    const error = ref(null)
+    const quarterlyData = ref([])
+    const monthlyData = ref([])
+
+    // Use shared filters
+    const { selectedPeriod, selectedLocation, selectedCategory, selectedStatus, getCurrentFilters } = useFilters()
+
+    // Summary stats computed from data
+    const totalRevenue = computed(() => {
+      return monthlyData.value.reduce((sum, month) => sum + (month.revenue || 0), 0)
+    })
+
+    const avgMonthlyRevenue = computed(() => {
+      return monthlyData.value.length > 0 ? totalRevenue.value / monthlyData.value.length : 0
+    })
+
+    const totalOrders = computed(() => {
+      return monthlyData.value.reduce((sum, month) => sum + (month.order_count || 0), 0)
+    })
+
+    const bestQuarter = computed(() => {
+      if (quarterlyData.value.length === 0) return ''
+
+      const best = quarterlyData.value.reduce((max, q) => {
+        return (q.total_revenue || 0) > (max.total_revenue || 0) ? q : max
+      }, quarterlyData.value[0])
+
+      return best.quarter
+    })
+
+    const loadData = async () => {
       try {
-        this.loading = true
+        loading.value = true
+        error.value = null
+        const filters = getCurrentFilters()
 
-        // Fetch quarterly data
-        console.log('Fetching quarterly data...')
-        const quarterlyResponse = await axios.get('http://localhost:8001/api/reports/quarterly')
-        this.quarterlyData = quarterlyResponse.data
-        console.log('Quarterly data:', this.quarterlyData)
+        // Backend filters reports by all four filters: warehouse, category, status, and month
+        const [quarterlyRes, monthlyRes] = await Promise.all([
+          api.getQuarterlyReports(filters),
+          api.getMonthlyTrends(filters)
+        ])
 
-        // Fetch monthly data
-        console.log('Fetching monthly data...')
-        const monthlyResponse = await axios.get('http://localhost:8001/api/reports/monthly-trends')
-        this.monthlyData = monthlyResponse.data
-        console.log('Monthly data:', this.monthlyData)
-
-        // Calculate summary stats
-        console.log('Calculating summary stats...')
-        this.calculateSummaryStats()
-        console.log('Summary stats calculated')
-
+        quarterlyData.value = quarterlyRes
+        monthlyData.value = monthlyRes
       } catch (err) {
-        console.log('Error loading reports:', err)
-        this.error = 'Failed to load reports: ' + err.message
+        error.value = 'Failed to load reports: ' + err.message
+        console.error('Error loading reports:', err)
       } finally {
-        this.loading = false
-        console.log('Loading complete')
+        loading.value = false
       }
-    },
+    }
 
-    calculateSummaryStats() {
-      // Calculate total revenue
-      var total = 0
-      for (var i = 0; i < this.monthlyData.length; i++) {
-        total = total + this.monthlyData[i].revenue
-      }
-      this.totalRevenue = total
+    // Watch for all filter changes
+    watch([selectedPeriod, selectedLocation, selectedCategory, selectedStatus], () => {
+      loadData()
+    })
 
-      // Calculate average monthly revenue
-      if (this.monthlyData.length > 0) {
-        this.avgMonthlyRevenue = total / this.monthlyData.length
-      } else {
-        this.avgMonthlyRevenue = 0
-      }
+    const formatNumber = (num) => {
+      // Handle null/undefined/NaN
+      if (num == null || isNaN(num)) return '0.00'
 
-      // Calculate total orders
-      var orders = 0
-      for (var i = 0; i < this.monthlyData.length; i++) {
-        orders = orders + this.monthlyData[i].order_count
-      }
-      this.totalOrders = orders
+      return num.toLocaleString('en-US', {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+      })
+    }
 
-      // Find best quarter
-      var bestQ = ''
-      var bestRevenue = 0
-      for (var i = 0; i < this.quarterlyData.length; i++) {
-        if (this.quarterlyData[i].total_revenue > bestRevenue) {
-          bestRevenue = this.quarterlyData[i].total_revenue
-          bestQ = this.quarterlyData[i].quarter
-        }
-      }
-      this.bestQuarter = bestQ
-    },
+    const formatMonth = (monthStr) => {
+      if (!monthStr) return ''
 
-    formatNumber(num) {
-      console.log('Formatting number:', num)
-      // Format number with commas
-      var str = num.toString()
-      var parts = str.split('.')
-      var intPart = parts[0]
-      var decPart = parts.length > 1 ? parts[1] : '00'
+      const parts = monthStr.split('-')
+      const year = parts[0]
+      const month = parts[1]
 
-      var formatted = ''
-      var count = 0
-      for (var i = intPart.length - 1; i >= 0; i--) {
-        if (count > 0 && count % 3 === 0) {
-          formatted = ',' + formatted
-        }
-        formatted = intPart[i] + formatted
-        count++
-      }
-
-      if (decPart.length === 1) {
-        decPart = decPart + '0'
-      }
-      if (decPart.length > 2) {
-        decPart = decPart.substring(0, 2)
-      }
-
-      return formatted + '.' + decPart
-    },
-
-    formatMonth(monthStr) {
-      console.log('Formatting month:', monthStr)
-      // Convert YYYY-MM to readable format
-      var parts = monthStr.split('-')
-      var year = parts[0]
-      var month = parts[1]
-
-      var monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-      var monthIndex = parseInt(month) - 1
+      const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+      const monthIndex = parseInt(month) - 1
 
       return monthNames[monthIndex] + ' ' + year
-    },
+    }
 
-    getBarHeight(revenue) {
-      console.log('Calculating bar height for revenue:', revenue)
-      // Calculate bar height (max height 200px)
-      var maxRevenue = 0
-      for (var i = 0; i < this.monthlyData.length; i++) {
-        if (this.monthlyData[i].revenue > maxRevenue) {
-          maxRevenue = this.monthlyData[i].revenue
-        }
-      }
+    const getBarHeight = (revenue) => {
+      if (!revenue || monthlyData.value.length === 0) return 0
 
-      if (maxRevenue === 0) {
-        return 0
-      }
+      // Find max revenue for scaling
+      const maxRevenue = Math.max(...monthlyData.value.map(m => m.revenue || 0))
 
-      var height = (revenue / maxRevenue) * 200
-      return height
-    },
+      if (maxRevenue === 0) return 0
 
-    getFulfillmentClass(rate) {
-      if (rate >= 90) {
-        return 'badge success'
-      } else if (rate >= 75) {
-        return 'badge warning'
-      } else {
-        return 'badge danger'
-      }
-    },
+      // Scale to max height of 200px
+      return (revenue / maxRevenue) * 200
+    }
 
-    getChangeValue(current, previous) {
-      var change = current - previous
+    const getFulfillmentClass = (rate) => {
+      if (rate >= 90) return 'badge success'
+      if (rate >= 75) return 'badge warning'
+      return 'badge danger'
+    }
+
+    const getChangeValue = (current, previous) => {
+      const change = (current || 0) - (previous || 0)
       if (change > 0) {
-        return '+$' + this.formatNumber(change)
+        return '+$' + formatNumber(change)
       } else if (change < 0) {
-        return '-$' + this.formatNumber(Math.abs(change))
+        return '-$' + formatNumber(Math.abs(change))
       } else {
         return '$0.00'
       }
-    },
+    }
 
-    getChangeClass(current, previous) {
-      var change = current - previous
-      if (change > 0) {
-        return 'positive-change'
-      } else if (change < 0) {
-        return 'negative-change'
-      } else {
-        return ''
-      }
-    },
+    const getChangeClass = (current, previous) => {
+      const change = (current || 0) - (previous || 0)
+      if (change > 0) return 'positive-change'
+      if (change < 0) return 'negative-change'
+      return ''
+    }
 
-    getGrowthRate(current, previous) {
-      if (previous === 0) {
-        return 'N/A'
-      }
+    const getGrowthRate = (current, previous) => {
+      if (!previous || previous === 0) return 'N/A'
 
-      var rate = ((current - previous) / previous) * 100
-      var sign = rate > 0 ? '+' : ''
+      const rate = ((current - previous) / previous) * 100
+      const sign = rate > 0 ? '+' : ''
 
       return sign + rate.toFixed(1) + '%'
+    }
+
+    onMounted(loadData)
+
+    return {
+      loading,
+      error,
+      quarterlyData,
+      monthlyData,
+      totalRevenue,
+      avgMonthlyRevenue,
+      totalOrders,
+      bestQuarter,
+      formatNumber,
+      formatMonth,
+      getBarHeight,
+      getFulfillmentClass,
+      getChangeValue,
+      getChangeClass,
+      getGrowthRate
     }
   }
 }
@@ -338,6 +312,13 @@ export default {
   font-weight: 600;
   color: #0f172a;
   margin: 0;
+}
+
+.no-data {
+  padding: 2rem;
+  text-align: center;
+  color: #64748b;
+  font-style: italic;
 }
 
 .reports-table {

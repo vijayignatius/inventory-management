@@ -6,6 +6,7 @@ export default {
     orders: 'Orders',
     finance: 'Finance',
     demandForecast: 'Demand Forecast',
+    restocking: 'Restocking',
     companyName: 'Catalyst Components',
     subtitle: 'Inventory Management System'
   },
@@ -112,6 +113,11 @@ export default {
     onTimeDelivery: 'On-Time Delivery',
     itemsCount: '{count} items',
     quantity: 'Qty',
+    submittedOrders: 'Submitted Restocking Orders',
+    noSubmittedOrders: 'No restocking orders have been submitted yet',
+    submittedDate: 'Submitted',
+    leadTime: 'Lead Time',
+    leadTimeDays: '{days} days',
     table: {
       orderNumber: 'Order Number',
       orderId: 'Order ID',
@@ -164,7 +170,8 @@ export default {
       vendor: 'Vendor',
       date: 'Date',
       amount: 'Amount'
-    }
+    },
+    costFilterNote: 'Cost figures are company-wide and not affected by Location or Category filters.'
   },
 
   // Demand Forecast
@@ -185,6 +192,55 @@ export default {
       change: 'Change',
       trend: 'Trend',
       period: 'Period'
+    }
+  },
+
+  // Restocking
+  restocking: {
+    title: 'Restocking',
+    description: 'Optimize inventory replenishment based on demand forecasts',
+    stats: {
+      budget: 'Budget',
+      plannedSpend: 'Planned Spend',
+      remaining: 'Remaining',
+      items: 'Items',
+      estLeadTime: 'Est. Lead Time',
+      days: 'days'
+    },
+    budget: {
+      title: 'Budget Control',
+      current: 'Current Budget'
+    },
+    recommendations: {
+      title: 'Recommended Restocking Items',
+      partial: 'Partial',
+      notFunded: 'Not funded',
+      table: {
+        sku: 'SKU',
+        item: 'Item',
+        trend: 'Trend',
+        gap: 'Gap',
+        orderQty: 'Order Qty',
+        unitCost: 'Unit Cost',
+        lineTotal: 'Line Total',
+        leadTime: 'Lead Time'
+      }
+    },
+    order: {
+      placeOrder: 'Place Restocking Order',
+      submitting: 'Submitting...',
+      success: {
+        title: 'Restocking Order Submitted Successfully',
+        orderNumber: 'Order Number',
+        expectedDelivery: 'Expected Delivery',
+        leadTime: 'Lead Time',
+        totalCost: 'Total Cost',
+        viewOrders: 'View Orders'
+      }
+    },
+    error: {
+      loadFailed: 'Failed to load demand forecasts',
+      orderFailed: 'Failed to submit restocking order'
     }
   },
 

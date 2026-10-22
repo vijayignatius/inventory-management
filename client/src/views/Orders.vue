@@ -74,6 +74,60 @@
           </table>
         </div>
       </div>
+
+      <!-- Submitted Restocking Orders -->
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">{{ t('orders.submittedOrders') }}</h3>
+        </div>
+        <div class="table-container">
+          <table class="restocking-orders-table">
+            <thead>
+              <tr>
+                <th>{{ t('orders.table.orderNumber') }}</th>
+                <th>{{ t('orders.table.items') }}</th>
+                <th>{{ t('orders.submittedDate') }}</th>
+                <th>{{ t('orders.leadTime') }}</th>
+                <th>{{ t('orders.table.expectedDelivery') }}</th>
+                <th>{{ t('orders.table.totalValue') }}</th>
+                <th>{{ t('orders.table.status') }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-if="restockingOrders.length === 0">
+                <td colspan="7" style="text-align: center; color: #64748b; font-style: italic;">
+                  {{ t('orders.noSubmittedOrders') }}
+                </td>
+              </tr>
+              <tr v-for="order in restockingOrders" :key="order.id">
+                <td><strong>{{ order.order_number }}</strong></td>
+                <td>
+                  <details class="items-details">
+                    <summary class="items-summary">
+                      {{ t('orders.itemsCount', { count: order.items.length }) }}
+                    </summary>
+                    <div class="items-dropdown">
+                      <div v-for="item in order.items" :key="item.item_sku" class="item-entry">
+                        <span class="item-name">{{ item.item_name }}</span>
+                        <span class="item-meta">{{ t('orders.quantity') }}: {{ item.quantity }} @ {{ currencySymbol }}{{ item.unit_cost }}</span>
+                      </div>
+                    </div>
+                  </details>
+                </td>
+                <td>{{ formatDate(order.submitted_date) }}</td>
+                <td>{{ t('orders.leadTimeDays', { days: order.lead_time_days }) }}</td>
+                <td>{{ formatDate(order.expected_delivery) }}</td>
+                <td><strong>{{ currencySymbol }}{{ order.total_cost.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }) }}</strong></td>
+                <td>
+                  <span class="badge info">
+                    {{ order.status }}
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -95,6 +149,7 @@ export default {
     const loading = ref(true)
     const error = ref(null)
     const orders = ref([])
+    const restockingOrders = ref([])
 
     // Use shared filters
     const {
@@ -109,13 +164,29 @@ export default {
       try {
         loading.value = true
         const filters = getCurrentFilters()
-        const fetchedOrders = await api.getOrders(filters)
+
+        // Fetch orders and restocking orders in parallel
+        const [fetchedOrders, fetchedRestockingOrders] = await Promise.all([
+          api.getOrders(filters),
+          // Fetch restocking orders, but don't fail if it errors
+          api.getRestockingOrders().catch(err => {
+            console.error('Failed to load restocking orders:', err)
+            return []
+          })
+        ])
 
         // Sort orders by order_date (earliest first)
         orders.value = fetchedOrders.sort((a, b) => {
           const dateA = new Date(a.order_date)
           const dateB = new Date(b.order_date)
           return dateA - dateB
+        })
+
+        // Sort restocking orders by submitted_date (newest first)
+        restockingOrders.value = fetchedRestockingOrders.sort((a, b) => {
+          const dateA = new Date(a.submitted_date)
+          const dateB = new Date(b.submitted_date)
+          return dateB - dateA
         })
       } catch (err) {
         error.value = 'Failed to load orders: ' + err.message
@@ -144,9 +215,13 @@ export default {
     }
 
     const formatDate = (dateString) => {
+      if (!dateString) return '-'
+      const date = new Date(dateString)
+      if (isNaN(date.getTime())) return '-'
+
       const { currentLocale } = useI18n()
       const locale = currentLocale.value === 'ja' ? 'ja-JP' : 'en-US'
-      return new Date(dateString).toLocaleDateString(locale, {
+      return date.toLocaleDateString(locale, {
         year: 'numeric',
         month: 'short',
         day: 'numeric'
@@ -160,6 +235,7 @@ export default {
       loading,
       error,
       orders,
+      restockingOrders,
       getOrdersByStatus,
       getOrderStatusClass,
       formatDate,

@@ -7,7 +7,9 @@
     "quantity_needed": 1200,
     "quantity_available": 850,
     "days_delayed": 3,
-    "priority": "medium"
+    "priority": "medium",
+    "warehouse": "London",
+    "category": "Actuators"
   },
   {
     "id": "2",
@@ -17,7 +19,9 @@
     "quantity_needed": 45,
     "quantity_available": 35,
     "days_delayed": 2,
-    "priority": "high"
+    "priority": "high",
+    "warehouse": "Tokyo",
+    "category": "Actuators"
   },
   {
     "id": "3",
@@ -27,7 +31,9 @@
     "quantity_needed": 180,
     "quantity_available": 100,
     "days_delayed": 1,
-    "priority": "high"
+    "priority": "high",
+    "warehouse": "San Francisco",
+    "category": "Actuators"
   },
   {
     "id": "4",
@@ -37,6 +43,8 @@
     "quantity_needed": 450,
     "quantity_available": 275,
     "days_delayed": 5,
-    "priority": "medium"
+    "priority": "medium",
+    "warehouse": "Tokyo",
+    "category": "Actuators"
   }
 ]

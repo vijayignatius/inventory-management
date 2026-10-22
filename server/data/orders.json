@@ -5,8 +5,8 @@
     "customer": "MegaCorp Industries",
     "items": [
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 981,
         "unit_price": 89.5
       }
@@ -45,22 +45,16 @@
     "customer": "Horizon Technologies",
     "items": [
       {
-        "sku": "LED-406",
-        "name": "LED Driver IC",
-        "quantity": 883,
-        "unit_price": 8.25
+        "sku": "MCU-401",
+        "name": "8-bit Microcontroller",
+        "quantity": 1512,
+        "unit_price": 306.42
       },
       {
         "sku": "MCU-402",
         "name": "32-bit ARM Microcontroller",
         "quantity": 289,
         "unit_price": 34.5
-      },
-      {
-        "sku": "DRV-405",
-        "name": "H-Bridge Motor Driver",
-        "quantity": 629,
-        "unit_price": 725.0
       }
     ],
     "status": "Delivered",
@@ -68,7 +62,7 @@
     "category": "Controllers",
     "order_date": "2025-01-22T10:50:00",
     "expected_delivery": "2025-02-02T10:50:00",
-    "total_value": 473280.25,
+    "total_value": 473277.54,
     "actual_delivery": "2025-02-02T10:50:00"
   },
   {
@@ -77,16 +71,10 @@
     "customer": "FastAssembly Ltd",
     "items": [
       {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
-        "quantity": 449,
-        "unit_price": 725.0
-      },
-      {
-        "sku": "STP-303",
-        "name": "Stepper Motor NEMA 17",
-        "quantity": 780,
-        "unit_price": 12.75
+        "sku": "LAC-305",
+        "name": "Linear Actuator 12V",
+        "quantity": 1229,
+        "unit_price": 272.96
       }
     ],
     "status": "Backordered",
@@ -94,7 +82,7 @@
     "category": "Actuators",
     "order_date": "2025-01-02T10:57:00",
     "expected_delivery": "2025-01-10T10:57:00",
-    "total_value": 335470.0
+    "total_value": 335467.84
   },
   {
     "id": "5",
@@ -102,22 +90,16 @@
     "customer": "TechSolutions Group",
     "items": [
       {
-        "sku": "PRS-203",
-        "name": "Pressure Sensor Module",
-        "quantity": 151,
-        "unit_price": 95.0
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
+        "quantity": 217,
+        "unit_price": 76.60
       },
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 940,
         "unit_price": 15.99
-      },
-      {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
-        "quantity": 66,
-        "unit_price": 34.5
       }
     ],
     "status": "Delivered",
@@ -125,7 +107,7 @@
     "category": "Sensors",
     "order_date": "2025-01-03T12:06:00",
     "expected_delivery": "2025-01-16T12:06:00",
-    "total_value": 31652.6,
+    "total_value": 31652.80,
     "actual_delivery": "2025-01-10T12:06:00"
   },
   {
@@ -134,8 +116,8 @@
     "customer": "FastAssembly Ltd",
     "items": [
       {
-        "sku": "DSP-403",
-        "name": "Digital Signal Processor",
+        "sku": "MCU-402",
+        "name": "32-bit ARM Microcontroller",
         "quantity": 346,
         "unit_price": 6.5
       }
@@ -153,8 +135,8 @@
     "customer": "MegaCorp Industries",
     "items": [
       {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
+        "sku": "PCB-001",
+        "name": "Single Layer PCB Assembly",
         "quantity": 51,
         "unit_price": 24.99
       }
@@ -173,8 +155,8 @@
     "customer": "Apex Engineering",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
         "quantity": 920,
         "unit_price": 24.99
       }
@@ -193,8 +175,8 @@
     "customer": "Superior Manufacturing",
     "items": [
       {
-        "sku": "DSP-403",
-        "name": "Digital Signal Processor",
+        "sku": "MCU-401",
+        "name": "8-bit Microcontroller",
         "quantity": 930,
         "unit_price": 7.75
       }
@@ -212,22 +194,10 @@
     "customer": "Cascade Manufacturing",
     "items": [
       {
-        "sku": "MCU-401",
-        "name": "8-bit Microcontroller",
-        "quantity": 100,
-        "unit_price": 8.25
-      },
-      {
         "sku": "PWM-404",
         "name": "PWM Motor Controller",
-        "quantity": 709,
-        "unit_price": 325.0
-      },
-      {
-        "sku": "PWM-404",
-        "name": "PWM Motor Controller",
-        "quantity": 568,
-        "unit_price": 725.0
+        "quantity": 1377,
+        "unit_price": 466.99
       }
     ],
     "status": "Delivered",
@@ -235,7 +205,7 @@
     "category": "Controllers",
     "order_date": "2025-02-06T12:30:00",
     "expected_delivery": "2025-02-18T12:30:00",
-    "total_value": 643050.0,
+    "total_value": 643045.23,
     "actual_delivery": "2025-02-14T12:30:00"
   },
   {
@@ -244,22 +214,10 @@
     "customer": "FastAssembly Ltd",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 774,
-        "unit_price": 34.5
-      },
-      {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 797,
-        "unit_price": 125.0
-      },
-      {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
-        "quantity": 823,
-        "unit_price": 725.0
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
+        "quantity": 2394,
+        "unit_price": 302.01
       }
     ],
     "status": "Shipped",
@@ -267,7 +225,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-02-10T09:29:00",
     "expected_delivery": "2025-02-23T09:29:00",
-    "total_value": 723003.0
+    "total_value": 723011.94
   },
   {
     "id": "12",
@@ -275,14 +233,14 @@
     "customer": "Acme Manufacturing Corp",
     "items": [
       {
-        "sku": "SPR-601",
-        "name": "Coil Spring Heavy Duty",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 93,
         "unit_price": 156.0
       },
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 727,
         "unit_price": 8.5
       }
@@ -307,8 +265,8 @@
         "unit_price": 445.0
       },
       {
-        "sku": "STP-303",
-        "name": "Stepper Motor NEMA 17",
+        "sku": "STP-304",
+        "name": "Stepper Motor NEMA 23",
         "quantity": 417,
         "unit_price": 24.99
       }
@@ -327,8 +285,8 @@
     "customer": "Superior Manufacturing",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 630,
         "unit_price": 89.5
       }
@@ -353,16 +311,10 @@
         "unit_price": 34.5
       },
       {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
-        "quantity": 209,
-        "unit_price": 15.99
-      },
-      {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
-        "quantity": 278,
-        "unit_price": 156.0
+        "sku": "PCB-001",
+        "name": "Single Layer PCB Assembly",
+        "quantity": 487,
+        "unit_price": 95.91
       }
     ],
     "status": "Delivered",
@@ -370,7 +322,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-02-26T10:46:00",
     "expected_delivery": "2025-03-05T10:46:00",
-    "total_value": 68099.91,
+    "total_value": 68098.17,
     "actual_delivery": "2025-03-04T10:46:00"
   },
   {
@@ -385,8 +337,8 @@
         "unit_price": 89.5
       },
       {
-        "sku": "SPR-601",
-        "name": "Coil Spring Heavy Duty",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 539,
         "unit_price": 8.25
       }
@@ -405,22 +357,10 @@
     "customer": "Premier Industries",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 192,
-        "unit_price": 24.99
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 57,
-        "unit_price": 7.75
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 543,
-        "unit_price": 725.0
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
+        "quantity": 792,
+        "unit_price": 503.68
       }
     ],
     "status": "Delivered",
@@ -428,7 +368,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-02-13T08:25:00",
     "expected_delivery": "2025-02-26T08:25:00",
-    "total_value": 398914.83,
+    "total_value": 398914.56,
     "actual_delivery": "2025-02-25T08:25:00"
   },
   {
@@ -437,14 +377,14 @@
     "customer": "Stellar Components Ltd",
     "items": [
       {
-        "sku": "MCU-402",
-        "name": "32-bit ARM Microcontroller",
+        "sku": "LED-406",
+        "name": "LED Driver IC",
         "quantity": 992,
         "unit_price": 6.5
       },
       {
-        "sku": "PWM-404",
-        "name": "PWM Motor Controller",
+        "sku": "DSP-403",
+        "name": "Digital Signal Processor",
         "quantity": 92,
         "unit_price": 95.0
       }
@@ -464,14 +404,8 @@
       {
         "sku": "PCB-003",
         "name": "Multi Layer PCB Assembly",
-        "quantity": 393,
-        "unit_price": 24.99
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 913,
-        "unit_price": 6.5
+        "quantity": 1306,
+        "unit_price": 12.06
       }
     ],
     "status": "Delivered",
@@ -479,7 +413,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-03-18T09:01:00",
     "expected_delivery": "2025-03-30T09:01:00",
-    "total_value": 15755.57,
+    "total_value": 15750.36,
     "actual_delivery": "2025-03-24T09:01:00"
   },
   {
@@ -488,16 +422,10 @@
     "customer": "Dynamic Systems Ltd",
     "items": [
       {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
-        "quantity": 192,
-        "unit_price": 445.0
-      },
-      {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
-        "quantity": 514,
-        "unit_price": 24.99
+        "sku": "STP-303",
+        "name": "Stepper Motor NEMA 17",
+        "quantity": 706,
+        "unit_price": 139.21
       }
     ],
     "status": "Delivered",
@@ -505,7 +433,7 @@
     "category": "Actuators",
     "order_date": "2025-03-05T17:40:00",
     "expected_delivery": "2025-03-15T17:40:00",
-    "total_value": 98284.86,
+    "total_value": 98282.26,
     "actual_delivery": "2025-03-12T17:40:00"
   },
   {
@@ -514,8 +442,8 @@
     "customer": "TechBuild Industries",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 411,
         "unit_price": 24.99
       }
@@ -546,8 +474,8 @@
         "unit_price": 445.0
       },
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 325,
         "unit_price": 6.5
       }
@@ -568,18 +496,12 @@
       {
         "sku": "PCB-001",
         "name": "Single Layer PCB Assembly",
-        "quantity": 415,
-        "unit_price": 24.99
+        "quantity": 1250,
+        "unit_price": 13.81
       },
       {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 835,
-        "unit_price": 8.25
-      },
-      {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
+        "sku": "PCB-002",
+        "name": "Dual Layer PCB Assembly",
         "quantity": 217,
         "unit_price": 110.5
       }
@@ -589,7 +511,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-03-11T17:34:00",
     "expected_delivery": "2025-03-22T17:34:00",
-    "total_value": 41238.1,
+    "total_value": 41241.00,
     "actual_delivery": "2025-03-21T17:34:00"
   },
   {
@@ -598,8 +520,8 @@
     "customer": "Advanced Components Inc",
     "items": [
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 605,
         "unit_price": 15.99
       }
@@ -624,8 +546,8 @@
         "unit_price": 7.75
       },
       {
-        "sku": "DRV-405",
-        "name": "H-Bridge Motor Driver",
+        "sku": "MCU-401",
+        "name": "8-bit Microcontroller",
         "quantity": 55,
         "unit_price": 325.0
       }
@@ -677,20 +599,8 @@
       {
         "sku": "STP-303",
         "name": "Stepper Motor NEMA 17",
-        "quantity": 500,
-        "unit_price": 325.0
-      },
-      {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 366,
-        "unit_price": 15.99
-      },
-      {
-        "sku": "SRV-302",
-        "name": "Standard Servo Motor",
-        "quantity": 244,
-        "unit_price": 125.0
+        "quantity": 1110,
+        "unit_price": 179.15
       }
     ],
     "status": "Processing",
@@ -698,7 +608,7 @@
     "category": "Actuators",
     "order_date": "2025-03-06T15:48:00",
     "expected_delivery": "2025-03-16T15:48:00",
-    "total_value": 198852.34
+    "total_value": 198856.50
   },
   {
     "id": "28",
@@ -712,8 +622,8 @@
         "unit_price": 95.0
       },
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "HMD-202",
+        "name": "Humidity Sensor Module",
         "quantity": 514,
         "unit_price": 110.5
       }
@@ -732,14 +642,14 @@
     "customer": "Stellar Components Ltd",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "TMP-201",
+        "name": "Temperature Sensor Module",
         "quantity": 285,
         "unit_price": 110.5
       },
       {
-        "sku": "LDR-208",
-        "name": "Light Dependent Resistor",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 551,
         "unit_price": 12.75
       }
@@ -758,8 +668,8 @@
     "customer": "Elite Systems Corp",
     "items": [
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 501,
         "unit_price": 8.5
       }
@@ -810,14 +720,14 @@
     "customer": "TechBuild Industries",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 346,
         "unit_price": 125.0
       },
       {
-        "sku": "PRS-203",
-        "name": "Pressure Sensor Module",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 448,
         "unit_price": 29.99
       }
@@ -856,14 +766,14 @@
     "customer": "Dynamic Systems Ltd",
     "items": [
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 650,
         "unit_price": 125.0
       },
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 152,
         "unit_price": 34.5
       }
@@ -882,14 +792,14 @@
     "customer": "TechSolutions Group",
     "items": [
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 299,
         "unit_price": 15.99
       },
       {
-        "sku": "PRX-204",
-        "name": "Proximity Sensor",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 496,
         "unit_price": 8.25
       }
@@ -908,14 +818,14 @@
     "customer": "PrecisionWorks Inc",
     "items": [
       {
-        "sku": "PRX-204",
-        "name": "Proximity Sensor",
+        "sku": "PRS-203",
+        "name": "Pressure Sensor Module",
         "quantity": 243,
         "unit_price": 156.0
       },
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "ULS-205",
+        "name": "Ultrasonic Distance Sensor",
         "quantity": 771,
         "unit_price": 8.25
       }
@@ -933,8 +843,8 @@
     "customer": "Nexus Engineering",
     "items": [
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "ULS-205",
+        "name": "Ultrasonic Distance Sensor",
         "quantity": 504,
         "unit_price": 125.0
       },
@@ -958,8 +868,8 @@
     "customer": "Elite Systems Corp",
     "items": [
       {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
+        "sku": "STP-303",
+        "name": "Stepper Motor NEMA 17",
         "quantity": 525,
         "unit_price": 725.0
       }
@@ -984,8 +894,8 @@
         "unit_price": 34.5
       },
       {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
+        "sku": "PCB-001",
+        "name": "Single Layer PCB Assembly",
         "quantity": 790,
         "unit_price": 29.99
       }
@@ -1023,8 +933,8 @@
     "customer": "MegaCorp Industries",
     "items": [
       {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 709,
         "unit_price": 29.99
       }
@@ -1043,14 +953,14 @@
     "customer": "Cascade Manufacturing",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 695,
         "unit_price": 8.5
       },
       {
-        "sku": "SPR-601",
-        "name": "Coil Spring Heavy Duty",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 710,
         "unit_price": 95.0
       }
@@ -1095,8 +1005,8 @@
         "unit_price": 110.5
       },
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 296,
         "unit_price": 15.99
       }
@@ -1115,22 +1025,16 @@
     "customer": "Cascade Manufacturing",
     "items": [
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
-        "quantity": 62,
-        "unit_price": 110.5
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
+        "quantity": 754,
+        "unit_price": 152.26
       },
       {
-        "sku": "LDR-208",
-        "name": "Light Dependent Resistor",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 454,
         "unit_price": 8.5
-      },
-      {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
-        "quantity": 692,
-        "unit_price": 156.0
       }
     ],
     "status": "Backordered",
@@ -1138,7 +1042,7 @@
     "category": "Sensors",
     "order_date": "2025-05-20T14:07:00",
     "expected_delivery": "2025-05-29T14:07:00",
-    "total_value": 118662.0
+    "total_value": 118663.04
   },
   {
     "id": "46",
@@ -1146,8 +1050,8 @@
     "customer": "Superior Manufacturing",
     "items": [
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "LDR-208",
+        "name": "Light Dependent Resistor",
         "quantity": 855,
         "unit_price": 15.99
       },
@@ -1171,8 +1075,8 @@
     "customer": "ProManufacturing LLC",
     "items": [
       {
-        "sku": "SPR-601",
-        "name": "Coil Spring Heavy Duty",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 111,
         "unit_price": 12.75
       }
@@ -1197,8 +1101,8 @@
         "unit_price": 125.0
       },
       {
-        "sku": "SPR-601",
-        "name": "Coil Spring Heavy Duty",
+        "sku": "ULS-205",
+        "name": "Ultrasonic Distance Sensor",
         "quantity": 357,
         "unit_price": 725.0
       },
@@ -1282,8 +1186,8 @@
     "customer": "Omega Manufacturing",
     "items": [
       {
-        "sku": "DRV-405",
-        "name": "H-Bridge Motor Driver",
+        "sku": "PWM-404",
+        "name": "PWM Motor Controller",
         "quantity": 976,
         "unit_price": 7.75
       }
@@ -1302,22 +1206,10 @@
     "customer": "Premier Industries",
     "items": [
       {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 583,
-        "unit_price": 325.0
-      },
-      {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 889,
-        "unit_price": 12.75
-      },
-      {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
-        "quantity": 283,
-        "unit_price": 7.75
+        "sku": "STP-303",
+        "name": "Stepper Motor NEMA 17",
+        "quantity": 1755,
+        "unit_price": 115.67
       }
     ],
     "status": "Delivered",
@@ -1325,7 +1217,7 @@
     "category": "Actuators",
     "order_date": "2025-06-06T10:04:00",
     "expected_delivery": "2025-06-13T10:04:00",
-    "total_value": 203003.0,
+    "total_value": 203000.85,
     "actual_delivery": "2025-06-12T10:04:00"
   },
   {
@@ -1334,8 +1226,8 @@
     "customer": "Titan Products Inc",
     "items": [
       {
-        "sku": "SRV-302",
-        "name": "Standard Servo Motor",
+        "sku": "LAC-305",
+        "name": "Linear Actuator 12V",
         "quantity": 934,
         "unit_price": 325.0
       }
@@ -1354,8 +1246,8 @@
     "customer": "Titan Products Inc",
     "items": [
       {
-        "sku": "LDR-208",
-        "name": "Light Dependent Resistor",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 206,
         "unit_price": 8.5
       }
@@ -1379,8 +1271,8 @@
         "unit_price": 12.75
       },
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 610,
         "unit_price": 34.5
       }
@@ -1401,20 +1293,14 @@
       {
         "sku": "PCB-001",
         "name": "Single Layer PCB Assembly",
-        "quantity": 992,
-        "unit_price": 29.99
+        "quantity": 1919,
+        "unit_price": 27.57
       },
       {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
+        "sku": "PCB-002",
+        "name": "Dual Layer PCB Assembly",
         "quantity": 124,
         "unit_price": 95.0
-      },
-      {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
-        "quantity": 927,
-        "unit_price": 24.99
       }
     ],
     "status": "Delivered",
@@ -1422,7 +1308,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-06-03T10:34:00",
     "expected_delivery": "2025-06-14T10:34:00",
-    "total_value": 64695.81,
+    "total_value": 64686.83,
     "actual_delivery": "2025-06-14T10:34:00"
   },
   {
@@ -1431,16 +1317,10 @@
     "customer": "Cascade Manufacturing",
     "items": [
       {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 318,
-        "unit_price": 24.99
-      },
-      {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 920,
-        "unit_price": 110.5
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
+        "quantity": 1238,
+        "unit_price": 88.54
       }
     ],
     "status": "Delivered",
@@ -1448,7 +1328,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-06-14T14:11:00",
     "expected_delivery": "2025-06-24T14:11:00",
-    "total_value": 109606.82,
+    "total_value": 109612.52,
     "actual_delivery": "2025-06-20T14:11:00"
   },
   {
@@ -1457,8 +1337,8 @@
     "customer": "Premier Industries",
     "items": [
       {
-        "sku": "LED-406",
-        "name": "LED Driver IC",
+        "sku": "PWM-404",
+        "name": "PWM Motor Controller",
         "quantity": 523,
         "unit_price": 7.75
       }
@@ -1482,14 +1362,14 @@
         "unit_price": 8.25
       },
       {
-        "sku": "MCU-401",
-        "name": "8-bit Microcontroller",
+        "sku": "DRV-405",
+        "name": "H-Bridge Motor Driver",
         "quantity": 940,
         "unit_price": 8.5
       },
       {
-        "sku": "MCU-402",
-        "name": "32-bit ARM Microcontroller",
+        "sku": "LED-406",
+        "name": "LED Driver IC",
         "quantity": 887,
         "unit_price": 24.99
       }
@@ -1508,14 +1388,14 @@
     "customer": "Innovative Parts Co",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "TMP-201",
+        "name": "Temperature Sensor Module",
         "quantity": 740,
         "unit_price": 95.0
       },
       {
-        "sku": "GYR-207",
-        "name": "Gyroscope Module",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 719,
         "unit_price": 34.5
       }
@@ -1534,14 +1414,14 @@
     "customer": "PrecisionWorks Inc",
     "items": [
       {
-        "sku": "ACC-206",
-        "name": "3-Axis Accelerometer",
+        "sku": "ULS-205",
+        "name": "Ultrasonic Distance Sensor",
         "quantity": 636,
         "unit_price": 156.0
       },
       {
-        "sku": "SPR-601",
-        "name": "Coil Spring Heavy Duty",
+        "sku": "SPR-602",
+        "name": "Compression Spring",
         "quantity": 908,
         "unit_price": 725.0
       }
@@ -1566,8 +1446,8 @@
         "unit_price": 325.0
       },
       {
-        "sku": "STP-303",
-        "name": "Stepper Motor NEMA 17",
+        "sku": "STP-304",
+        "name": "Stepper Motor NEMA 23",
         "quantity": 597,
         "unit_price": 7.75
       }
@@ -1611,8 +1491,8 @@
     "customer": "BuildTech Co",
     "items": [
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 951,
         "unit_price": 125.0
       }
@@ -1630,14 +1510,14 @@
     "customer": "Omega Manufacturing",
     "items": [
       {
-        "sku": "GYR-207",
-        "name": "Gyroscope Module",
+        "sku": "PRS-203",
+        "name": "Pressure Sensor Module",
         "quantity": 915,
         "unit_price": 110.5
       },
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "SPR-602",
+        "name": "Compression Spring",
         "quantity": 753,
         "unit_price": 7.75
       }
@@ -1675,8 +1555,8 @@
     "customer": "Innovative Parts Co",
     "items": [
       {
-        "sku": "LDR-208",
-        "name": "Light Dependent Resistor",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 675,
         "unit_price": 8.5
       }
@@ -1696,20 +1576,8 @@
       {
         "sku": "STP-303",
         "name": "Stepper Motor NEMA 17",
-        "quantity": 355,
-        "unit_price": 325.0
-      },
-      {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 230,
-        "unit_price": 725.0
-      },
-      {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 342,
-        "unit_price": 15.99
+        "quantity": 927,
+        "unit_price": 310.24
       }
     ],
     "status": "Delivered",
@@ -1717,7 +1585,7 @@
     "category": "Actuators",
     "order_date": "2025-08-03T14:06:00",
     "expected_delivery": "2025-08-12T14:06:00",
-    "total_value": 287593.58,
+    "total_value": 287592.48,
     "actual_delivery": "2025-08-11T14:06:00"
   },
   {
@@ -1726,8 +1594,8 @@
     "customer": "Vanguard Systems",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 570,
         "unit_price": 34.5
       }
@@ -1746,14 +1614,14 @@
     "customer": "Titan Products Inc",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 381,
         "unit_price": 12.75
       },
       {
-        "sku": "GYR-207",
-        "name": "Gyroscope Module",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 902,
         "unit_price": 445.0
       }
@@ -1772,16 +1640,10 @@
     "customer": "Vanguard Systems",
     "items": [
       {
-        "sku": "MCU-401",
-        "name": "8-bit Microcontroller",
-        "quantity": 947,
-        "unit_price": 6.5
-      },
-      {
-        "sku": "LED-406",
-        "name": "LED Driver IC",
-        "quantity": 673,
-        "unit_price": 125.0
+        "sku": "PWM-404",
+        "name": "PWM Motor Controller",
+        "quantity": 1620,
+        "unit_price": 55.73
       }
     ],
     "status": "Delivered",
@@ -1789,7 +1651,7 @@
     "category": "Controllers",
     "order_date": "2025-08-26T09:14:00",
     "expected_delivery": "2025-09-05T09:14:00",
-    "total_value": 90280.5,
+    "total_value": 90282.60,
     "actual_delivery": "2025-09-04T09:14:00"
   },
   {
@@ -1804,16 +1666,10 @@
         "unit_price": 12.75
       },
       {
-        "sku": "ACC-206",
-        "name": "3-Axis Accelerometer",
-        "quantity": 109,
-        "unit_price": 156.0
-      },
-      {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
-        "quantity": 776,
-        "unit_price": 95.0
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
+        "quantity": 885,
+        "unit_price": 102.51
       }
     ],
     "status": "Shipped",
@@ -1821,7 +1677,7 @@
     "category": "Sensors",
     "order_date": "2025-08-18T10:07:00",
     "expected_delivery": "2025-08-29T10:07:00",
-    "total_value": 95097.25
+    "total_value": 95094.60
   },
   {
     "id": "74",
@@ -1829,8 +1685,8 @@
     "customer": "Quantum Manufacturing",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 93,
         "unit_price": 24.99
       }
@@ -1849,8 +1705,8 @@
     "customer": "BuildTech Co",
     "items": [
       {
-        "sku": "GYR-207",
-        "name": "Gyroscope Module",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 824,
         "unit_price": 8.5
       }
@@ -1875,8 +1731,8 @@
         "unit_price": 95.0
       },
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 258,
         "unit_price": 6.5
       }
@@ -1894,22 +1750,10 @@
     "customer": "Advanced Components Inc",
     "items": [
       {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 222,
-        "unit_price": 24.99
-      },
-      {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 432,
-        "unit_price": 34.5
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 846,
-        "unit_price": 6.5
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
+        "quantity": 1500,
+        "unit_price": 17.30
       }
     ],
     "status": "Delivered",
@@ -1917,7 +1761,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-09-12T10:54:00",
     "expected_delivery": "2025-09-25T10:54:00",
-    "total_value": 25950.78,
+    "total_value": 25950.00,
     "actual_delivery": "2025-09-24T10:54:00"
   },
   {
@@ -1926,22 +1770,16 @@
     "customer": "Titan Products Inc",
     "items": [
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
-        "quantity": 504,
-        "unit_price": 15.99
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
+        "quantity": 1201,
+        "unit_price": 70.84
       },
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 516,
         "unit_price": 89.5
-      },
-      {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
-        "quantity": 697,
-        "unit_price": 110.5
       }
     ],
     "status": "Shipped",
@@ -1949,7 +1787,7 @@
     "category": "Sensors",
     "order_date": "2025-09-13T09:30:00",
     "expected_delivery": "2025-09-21T09:30:00",
-    "total_value": 131259.46
+    "total_value": 131260.84
   },
   {
     "id": "79",
@@ -1963,8 +1801,8 @@
         "unit_price": 89.5
       },
       {
-        "sku": "PRX-204",
-        "name": "Proximity Sensor",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 891,
         "unit_price": 95.0
       }
@@ -1982,22 +1820,10 @@
     "customer": "Innovative Parts Co",
     "items": [
       {
-        "sku": "LED-406",
-        "name": "LED Driver IC",
-        "quantity": 740,
-        "unit_price": 7.75
-      },
-      {
-        "sku": "LED-406",
-        "name": "LED Driver IC",
-        "quantity": 578,
-        "unit_price": 445.0
-      },
-      {
-        "sku": "DSP-403",
-        "name": "Digital Signal Processor",
-        "quantity": 253,
-        "unit_price": 125.0
+        "sku": "PWM-404",
+        "name": "PWM Motor Controller",
+        "quantity": 1571,
+        "unit_price": 187.50
       }
     ],
     "status": "Delivered",
@@ -2005,7 +1831,7 @@
     "category": "Controllers",
     "order_date": "2025-09-19T12:44:00",
     "expected_delivery": "2025-10-01T12:44:00",
-    "total_value": 294570.0,
+    "total_value": 294562.50,
     "actual_delivery": "2025-09-29T12:44:00"
   },
   {
@@ -2079,22 +1905,10 @@
     "customer": "Dynamic Systems Ltd",
     "items": [
       {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 119,
-        "unit_price": 34.5
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 602,
-        "unit_price": 445.0
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 290,
-        "unit_price": 110.5
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
+        "quantity": 1011,
+        "unit_price": 300.73
       }
     ],
     "status": "Shipped",
@@ -2102,7 +1916,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-09-12T14:21:00",
     "expected_delivery": "2025-09-23T14:21:00",
-    "total_value": 304040.5
+    "total_value": 304038.03
   },
   {
     "id": "85",
@@ -2110,8 +1924,8 @@
     "customer": "Fusion Industries",
     "items": [
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 587,
         "unit_price": 110.5
       }
@@ -2129,8 +1943,8 @@
     "customer": "Omega Manufacturing",
     "items": [
       {
-        "sku": "STP-303",
-        "name": "Stepper Motor NEMA 17",
+        "sku": "LAC-305",
+        "name": "Linear Actuator 12V",
         "quantity": 805,
         "unit_price": 325.0
       }
@@ -2154,8 +1968,8 @@
         "unit_price": 15.99
       },
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 760,
         "unit_price": 89.5
       }
@@ -2174,8 +1988,8 @@
     "customer": "Titan Products Inc",
     "items": [
       {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
         "quantity": 808,
         "unit_price": 24.99
       }
@@ -2200,8 +2014,8 @@
         "unit_price": 95.0
       },
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 445,
         "unit_price": 156.0
       }
@@ -2220,8 +2034,8 @@
     "customer": "Nexus Engineering",
     "items": [
       {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
+        "sku": "PCB-001",
+        "name": "Single Layer PCB Assembly",
         "quantity": 992,
         "unit_price": 24.99
       },
@@ -2245,8 +2059,8 @@
     "customer": "Titan Products Inc",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 308,
         "unit_price": 24.99
       }
@@ -2264,14 +2078,14 @@
     "customer": "Horizon Technologies",
     "items": [
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "PLY-901",
+        "name": "Drive Pulley",
         "quantity": 242,
         "unit_price": 89.5
       },
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "SPR-602",
+        "name": "Compression Spring",
         "quantity": 455,
         "unit_price": 156.0
       },
@@ -2295,8 +2109,8 @@
     "customer": "Fusion Industries",
     "items": [
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 66,
         "unit_price": 95.0
       },
@@ -2326,8 +2140,8 @@
         "unit_price": 95.0
       },
       {
-        "sku": "PRS-203",
-        "name": "Pressure Sensor Module",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 606,
         "unit_price": 7.75
       },
@@ -2364,8 +2178,8 @@
         "unit_price": 445.0
       },
       {
-        "sku": "STP-303",
-        "name": "Stepper Motor NEMA 17",
+        "sku": "SRV-301",
+        "name": "Micro Servo Motor",
         "quantity": 567,
         "unit_price": 8.5
       }
@@ -2383,22 +2197,16 @@
     "customer": "Advanced Components Inc",
     "items": [
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
-        "quantity": 530,
-        "unit_price": 95.0
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
+        "quantity": 772,
+        "unit_price": 93.28
       },
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 127,
         "unit_price": 445.0
-      },
-      {
-        "sku": "LDR-208",
-        "name": "Light Dependent Resistor",
-        "quantity": 242,
-        "unit_price": 89.5
       }
     ],
     "status": "Delivered",
@@ -2406,7 +2214,7 @@
     "category": "Sensors",
     "order_date": "2025-11-09T12:29:00",
     "expected_delivery": "2025-11-18T12:29:00",
-    "total_value": 128524.0
+    "total_value": 128527.16
   },
   {
     "id": "97",
@@ -2458,8 +2266,8 @@
     "customer": "MegaCorp Industries",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 166,
         "unit_price": 29.99
       }
@@ -2477,8 +2285,8 @@
     "customer": "Horizon Technologies",
     "items": [
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 409,
         "unit_price": 89.5
       }
@@ -2515,16 +2323,10 @@
     "customer": "Precision Tools Inc",
     "items": [
       {
-        "sku": "SRV-302",
-        "name": "Standard Servo Motor",
-        "quantity": 709,
-        "unit_price": 325.0
-      },
-      {
-        "sku": "SRV-302",
-        "name": "Standard Servo Motor",
-        "quantity": 489,
-        "unit_price": 6.5
+        "sku": "LAC-305",
+        "name": "Linear Actuator 12V",
+        "quantity": 1198,
+        "unit_price": 194.99
       }
     ],
     "status": "Backordered",
@@ -2532,7 +2334,7 @@
     "category": "Actuators",
     "order_date": "2025-11-12T16:11:00",
     "expected_delivery": "2025-11-25T16:11:00",
-    "total_value": 233603.5
+    "total_value": 233598.02
   },
   {
     "id": "103",
@@ -2540,16 +2342,10 @@
     "customer": "MegaCorp Industries",
     "items": [
       {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 835,
-        "unit_price": 725.0
-      },
-      {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
-        "quantity": 646,
-        "unit_price": 125.0
+        "sku": "STP-303",
+        "name": "Stepper Motor NEMA 17",
+        "quantity": 1481,
+        "unit_price": 463.28
       }
     ],
     "status": "Backordered",
@@ -2557,7 +2353,7 @@
     "category": "Actuators",
     "order_date": "2025-11-01T10:10:00",
     "expected_delivery": "2025-11-12T10:10:00",
-    "total_value": 686125.0
+    "total_value": 686117.68
   },
   {
     "id": "104",
@@ -2565,8 +2361,8 @@
     "customer": "TechSolutions Group",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 213,
         "unit_price": 34.5
       }
@@ -2590,8 +2386,8 @@
         "unit_price": 12.75
       },
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "ULS-205",
+        "name": "Ultrasonic Distance Sensor",
         "quantity": 305,
         "unit_price": 34.5
       }
@@ -2609,14 +2405,14 @@
     "customer": "Vanguard Systems",
     "items": [
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 422,
         "unit_price": 89.5
       },
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 665,
         "unit_price": 156.0
       }
@@ -2634,8 +2430,8 @@
     "customer": "Nexus Engineering",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 455,
         "unit_price": 95.0
       }
@@ -2653,14 +2449,14 @@
     "customer": "Advanced Components Inc",
     "items": [
       {
-        "sku": "ACC-206",
-        "name": "3-Axis Accelerometer",
+        "sku": "LDR-208",
+        "name": "Light Dependent Resistor",
         "quantity": 859,
         "unit_price": 89.5
       },
       {
-        "sku": "GYR-207",
-        "name": "Gyroscope Module",
+        "sku": "PRS-203",
+        "name": "Pressure Sensor Module",
         "quantity": 60,
         "unit_price": 29.99
       }
@@ -2678,22 +2474,10 @@
     "customer": "Fusion Industries",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 187,
-        "unit_price": 34.5
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 919,
-        "unit_price": 89.5
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 344,
-        "unit_price": 125.0
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
+        "quantity": 1450,
+        "unit_price": 90.83
       }
     ],
     "status": "Processing",
@@ -2701,7 +2485,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-12-03T16:15:00",
     "expected_delivery": "2025-12-13T16:15:00",
-    "total_value": 131702.0
+    "total_value": 131703.50
   },
   {
     "id": "110",
@@ -2709,8 +2493,8 @@
     "customer": "Dynamic Systems Ltd",
     "items": [
       {
-        "sku": "STP-303",
-        "name": "Stepper Motor NEMA 17",
+        "sku": "SRV-302",
+        "name": "Standard Servo Motor",
         "quantity": 381,
         "unit_price": 445.0
       },
@@ -2740,8 +2524,8 @@
         "unit_price": 125.0
       },
       {
-        "sku": "PRS-203",
-        "name": "Pressure Sensor Module",
+        "sku": "HMD-202",
+        "name": "Humidity Sensor Module",
         "quantity": 119,
         "unit_price": 156.0
       }
@@ -2759,22 +2543,10 @@
     "customer": "Global Parts Ltd",
     "items": [
       {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
-        "quantity": 657,
-        "unit_price": 725.0
-      },
-      {
-        "sku": "SRV-302",
-        "name": "Standard Servo Motor",
-        "quantity": 213,
-        "unit_price": 12.75
-      },
-      {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 574,
-        "unit_price": 445.0
+        "sku": "LAC-305",
+        "name": "Linear Actuator 12V",
+        "quantity": 1444,
+        "unit_price": 508.64
       }
     ],
     "status": "Delivered",
@@ -2782,7 +2554,7 @@
     "category": "Actuators",
     "order_date": "2025-12-26T15:02:00",
     "expected_delivery": "2026-01-05T15:02:00",
-    "total_value": 734470.75
+    "total_value": 734476.16
   },
   {
     "id": "113",
@@ -2796,8 +2568,8 @@
         "unit_price": 8.25
       },
       {
-        "sku": "MCU-402",
-        "name": "32-bit ARM Microcontroller",
+        "sku": "DRV-405",
+        "name": "H-Bridge Motor Driver",
         "quantity": 506,
         "unit_price": 110.5
       }
@@ -2815,8 +2587,8 @@
     "customer": "Nexus Engineering",
     "items": [
       {
-        "sku": "SRV-302",
-        "name": "Standard Servo Motor",
+        "sku": "STP-303",
+        "name": "Stepper Motor NEMA 17",
         "quantity": 878,
         "unit_price": 725.0
       }
@@ -2834,22 +2606,10 @@
     "customer": "Superior Manufacturing",
     "items": [
       {
-        "sku": "MCU-401",
-        "name": "8-bit Microcontroller",
-        "quantity": 403,
-        "unit_price": 7.75
-      },
-      {
-        "sku": "LED-406",
-        "name": "LED Driver IC",
-        "quantity": 999,
-        "unit_price": 125.0
-      },
-      {
-        "sku": "DRV-405",
-        "name": "H-Bridge Motor Driver",
-        "quantity": 801,
-        "unit_price": 725.0
+        "sku": "PWM-404",
+        "name": "PWM Motor Controller",
+        "quantity": 2203,
+        "unit_price": 321.71
       }
     ],
     "status": "Delivered",
@@ -2857,7 +2617,7 @@
     "category": "Controllers",
     "order_date": "2025-12-17T17:39:00",
     "expected_delivery": "2025-12-24T17:39:00",
-    "total_value": 708723.25,
+    "total_value": 708727.13,
     "actual_delivery": "2025-12-23T17:39:00"
   },
   {
@@ -2892,8 +2652,8 @@
         "unit_price": 22.5
       },
       {
-        "sku": "PSU-503",
-        "name": "24V 3A Industrial Power Supply",
+        "sku": "PSU-505",
+        "name": "48V DC Power Supply Unit",
         "quantity": 120,
         "unit_price": 45.75
       }
@@ -2913,7 +2673,7 @@
     "items": [
       {
         "sku": "PSU-504",
-        "name": "Dual Output \u00b115V Power Supply",
+        "name": "Dual Output ±15V Power Supply",
         "quantity": 95,
         "unit_price": 38.25
       }
@@ -2932,8 +2692,8 @@
     "customer": "DataCenter Dynamics",
     "items": [
       {
-        "sku": "PSU-505",
-        "name": "48V DC Power Supply Unit",
+        "sku": "PSU-503",
+        "name": "24V 3A Industrial Power Supply",
         "quantity": 75,
         "unit_price": 67.5
       },
@@ -2978,14 +2738,14 @@
     "customer": "Network Infrastructure Ltd",
     "items": [
       {
-        "sku": "PSU-508",
-        "name": "Battery Backup Power Supply",
+        "sku": "PSU-502",
+        "name": "12V 5A Power Supply Module",
         "quantity": 30,
         "unit_price": 185.5
       },
       {
-        "sku": "PSU-501",
-        "name": "5V 10A Switching Power Supply",
+        "sku": "PSU-505",
+        "name": "48V DC Power Supply Unit",
         "quantity": 150,
         "unit_price": 18.99
       }
@@ -3004,8 +2764,8 @@
     "customer": "Smart Systems Corp",
     "items": [
       {
-        "sku": "PSU-502",
-        "name": "12V 5A Power Supply Module",
+        "sku": "PSU-506",
+        "name": "USB-C PD 100W Power Supply",
         "quantity": 220,
         "unit_price": 22.5
       }
@@ -3024,14 +2784,14 @@
     "customer": "Manufacturing Solutions Inc",
     "items": [
       {
-        "sku": "PSU-503",
-        "name": "24V 3A Industrial Power Supply",
+        "sku": "PSU-507",
+        "name": "Adjustable Bench Power Supply",
         "quantity": 160,
         "unit_price": 45.75
       },
       {
-        "sku": "PSU-506",
-        "name": "USB-C PD 100W Power Supply",
+        "sku": "PSU-504",
+        "name": "Dual Output ±15V Power Supply",
         "quantity": 280,
         "unit_price": 29.99
       }
@@ -3050,8 +2810,8 @@
     "customer": "Global Tech Distributors",
     "items": [
       {
-        "sku": "PSU-504",
-        "name": "Dual Output \u00b115V Power Supply",
+        "sku": "PSU-502",
+        "name": "12V 5A Power Supply Module",
         "quantity": 110,
         "unit_price": 38.25
       },
@@ -3076,8 +2836,8 @@
     "customer": "Advanced Electronics Systems",
     "items": [
       {
-        "sku": "PSU-507",
-        "name": "Adjustable Bench Power Supply",
+        "sku": "PSU-506",
+        "name": "USB-C PD 100W Power Supply",
         "quantity": 65,
         "unit_price": 125.0
       }
@@ -3096,8 +2856,8 @@
     "customer": "MegaCorp Industries",
     "items": [
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 1027,
         "unit_price": 89.5
       }
@@ -3136,22 +2896,16 @@
     "customer": "Horizon Technologies",
     "items": [
       {
-        "sku": "LED-406",
-        "name": "LED Driver IC",
+        "sku": "MCU-401",
+        "name": "8-bit Microcontroller",
         "quantity": 721,
         "unit_price": 8.25
       },
       {
         "sku": "MCU-402",
         "name": "32-bit ARM Microcontroller",
-        "quantity": 337,
-        "unit_price": 34.5
-      },
-      {
-        "sku": "DRV-405",
-        "name": "H-Bridge Motor Driver",
-        "quantity": 614,
-        "unit_price": 725.0
+        "quantity": 951,
+        "unit_price": 480.31
       }
     ],
     "status": "Delivered",
@@ -3159,7 +2913,7 @@
     "category": "Controllers",
     "order_date": "2025-01-18T10:50:00",
     "expected_delivery": "2025-01-29T10:50:00",
-    "total_value": 462724.75,
+    "total_value": 462723.06,
     "actual_delivery": "2025-01-29T10:50:00"
   },
   {
@@ -3168,16 +2922,10 @@
     "customer": "FastAssembly Ltd",
     "items": [
       {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
-        "quantity": 537,
-        "unit_price": 725.0
-      },
-      {
-        "sku": "STP-303",
-        "name": "Stepper Motor NEMA 17",
-        "quantity": 793,
-        "unit_price": 12.75
+        "sku": "LAC-305",
+        "name": "Linear Actuator 12V",
+        "quantity": 1330,
+        "unit_price": 300.33
       }
     ],
     "status": "Backordered",
@@ -3185,7 +2933,7 @@
     "category": "Actuators",
     "order_date": "2025-01-03T10:57:00",
     "expected_delivery": "2025-01-11T10:57:00",
-    "total_value": 399435.75
+    "total_value": 399438.90
   },
   {
     "id": "130",
@@ -3193,22 +2941,16 @@
     "customer": "TechSolutions Group",
     "items": [
       {
-        "sku": "PRS-203",
-        "name": "Pressure Sensor Module",
-        "quantity": 122,
-        "unit_price": 95.0
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
+        "quantity": 189,
+        "unit_price": 73.55
       },
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 1023,
         "unit_price": 15.99
-      },
-      {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
-        "quantity": 67,
-        "unit_price": 34.5
       }
     ],
     "status": "Delivered",
@@ -3216,7 +2958,7 @@
     "category": "Sensors",
     "order_date": "2025-01-02T12:06:00",
     "expected_delivery": "2025-01-15T12:06:00",
-    "total_value": 30259.27,
+    "total_value": 30258.72,
     "actual_delivery": "2025-01-09T12:06:00"
   },
   {
@@ -3225,8 +2967,8 @@
     "customer": "FastAssembly Ltd",
     "items": [
       {
-        "sku": "DSP-403",
-        "name": "Digital Signal Processor",
+        "sku": "MCU-401",
+        "name": "8-bit Microcontroller",
         "quantity": 342,
         "unit_price": 6.5
       }
@@ -3244,8 +2986,8 @@
     "customer": "MegaCorp Industries",
     "items": [
       {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
+        "sku": "PCB-002",
+        "name": "Dual Layer PCB Assembly",
         "quantity": 48,
         "unit_price": 24.99
       }
@@ -3264,8 +3006,8 @@
     "customer": "Apex Engineering",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
         "quantity": 869,
         "unit_price": 24.99
       }
@@ -3284,8 +3026,8 @@
     "customer": "Superior Manufacturing",
     "items": [
       {
-        "sku": "DSP-403",
-        "name": "Digital Signal Processor",
+        "sku": "MCU-402",
+        "name": "32-bit ARM Microcontroller",
         "quantity": 919,
         "unit_price": 7.75
       }
@@ -3303,22 +3045,10 @@
     "customer": "Cascade Manufacturing",
     "items": [
       {
-        "sku": "MCU-401",
-        "name": "8-bit Microcontroller",
-        "quantity": 111,
-        "unit_price": 8.25
-      },
-      {
         "sku": "PWM-404",
         "name": "PWM Motor Controller",
-        "quantity": 849,
-        "unit_price": 325.0
-      },
-      {
-        "sku": "PWM-404",
-        "name": "PWM Motor Controller",
-        "quantity": 592,
-        "unit_price": 725.0
+        "quantity": 1552,
+        "unit_price": 454.92
       }
     ],
     "status": "Delivered",
@@ -3326,7 +3056,7 @@
     "category": "Controllers",
     "order_date": "2025-02-01T12:30:00",
     "expected_delivery": "2025-02-13T12:30:00",
-    "total_value": 706040.75,
+    "total_value": 706035.84,
     "actual_delivery": "2025-02-09T12:30:00"
   },
   {
@@ -3335,22 +3065,10 @@
     "customer": "FastAssembly Ltd",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 657,
-        "unit_price": 34.5
-      },
-      {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 741,
-        "unit_price": 125.0
-      },
-      {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
-        "quantity": 710,
-        "unit_price": 725.0
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
+        "quantity": 2108,
+        "unit_price": 298.88
       }
     ],
     "status": "Shipped",
@@ -3358,7 +3076,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-02-05T09:29:00",
     "expected_delivery": "2025-02-18T09:29:00",
-    "total_value": 630041.5
+    "total_value": 630039.04
   },
   {
     "id": "137",
@@ -3366,14 +3084,14 @@
     "customer": "Acme Manufacturing Corp",
     "items": [
       {
-        "sku": "SPR-601",
-        "name": "Coil Spring Heavy Duty",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 85,
         "unit_price": 156.0
       },
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 686,
         "unit_price": 8.5
       }
@@ -3398,8 +3116,8 @@
         "unit_price": 445.0
       },
       {
-        "sku": "STP-303",
-        "name": "Stepper Motor NEMA 17",
+        "sku": "SRV-302",
+        "name": "Standard Servo Motor",
         "quantity": 410,
         "unit_price": 24.99
       }
@@ -3418,8 +3136,8 @@
     "customer": "Superior Manufacturing",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 507,
         "unit_price": 89.5
       }
@@ -3440,20 +3158,14 @@
       {
         "sku": "PCB-002",
         "name": "Dual Layer PCB Assembly",
-        "quantity": 534,
-        "unit_price": 34.5
+        "quantity": 787,
+        "unit_price": 73.56
       },
       {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
+        "sku": "PCB-001",
+        "name": "Single Layer PCB Assembly",
         "quantity": 177,
         "unit_price": 15.99
-      },
-      {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
-        "quantity": 253,
-        "unit_price": 156.0
       }
     ],
     "status": "Delivered",
@@ -3461,7 +3173,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-02-27T10:46:00",
     "expected_delivery": "2025-03-06T10:46:00",
-    "total_value": 60721.23,
+    "total_value": 60721.95,
     "actual_delivery": "2025-03-05T10:46:00"
   },
   {
@@ -3476,8 +3188,8 @@
         "unit_price": 89.5
       },
       {
-        "sku": "SPR-601",
-        "name": "Coil Spring Heavy Duty",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 541,
         "unit_price": 8.25
       }
@@ -3496,22 +3208,10 @@
     "customer": "Premier Industries",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 195,
-        "unit_price": 24.99
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 48,
-        "unit_price": 7.75
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 582,
-        "unit_price": 725.0
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
+        "quantity": 825,
+        "unit_price": 517.81
       }
     ],
     "status": "Delivered",
@@ -3519,7 +3219,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-02-13T08:25:00",
     "expected_delivery": "2025-02-26T08:25:00",
-    "total_value": 427195.05,
+    "total_value": 427193.25,
     "actual_delivery": "2025-02-25T08:25:00"
   },
   {
@@ -3528,14 +3228,14 @@
     "customer": "Stellar Components Ltd",
     "items": [
       {
-        "sku": "MCU-402",
-        "name": "32-bit ARM Microcontroller",
+        "sku": "DRV-405",
+        "name": "H-Bridge Motor Driver",
         "quantity": 934,
         "unit_price": 6.5
       },
       {
-        "sku": "PWM-404",
-        "name": "PWM Motor Controller",
+        "sku": "LED-406",
+        "name": "LED Driver IC",
         "quantity": 82,
         "unit_price": 95.0
       }
@@ -3555,14 +3255,8 @@
       {
         "sku": "PCB-003",
         "name": "Multi Layer PCB Assembly",
-        "quantity": 456,
-        "unit_price": 24.99
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 969,
-        "unit_price": 6.5
+        "quantity": 1425,
+        "unit_price": 12.42
       }
     ],
     "status": "Delivered",
@@ -3570,7 +3264,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-03-23T09:01:00",
     "expected_delivery": "2025-04-04T09:01:00",
-    "total_value": 17693.94,
+    "total_value": 17698.50,
     "actual_delivery": "2025-03-29T09:01:00"
   },
   {
@@ -3579,16 +3273,10 @@
     "customer": "Dynamic Systems Ltd",
     "items": [
       {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
-        "quantity": 195,
-        "unit_price": 445.0
-      },
-      {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
-        "quantity": 457,
-        "unit_price": 24.99
+        "sku": "STP-303",
+        "name": "Stepper Motor NEMA 17",
+        "quantity": 652,
+        "unit_price": 150.61
       }
     ],
     "status": "Delivered",
@@ -3596,7 +3284,7 @@
     "category": "Actuators",
     "order_date": "2025-03-06T17:40:00",
     "expected_delivery": "2025-03-16T17:40:00",
-    "total_value": 98195.43,
+    "total_value": 98197.72,
     "actual_delivery": "2025-03-13T17:40:00"
   },
   {
@@ -3605,8 +3293,8 @@
     "customer": "TechBuild Industries",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 476,
         "unit_price": 24.99
       }
@@ -3637,8 +3325,8 @@
         "unit_price": 445.0
       },
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "TMP-201",
+        "name": "Temperature Sensor Module",
         "quantity": 342,
         "unit_price": 6.5
       }
@@ -3659,18 +3347,12 @@
       {
         "sku": "PCB-001",
         "name": "Single Layer PCB Assembly",
-        "quantity": 347,
-        "unit_price": 24.99
+        "quantity": 1052,
+        "unit_price": 13.77
       },
       {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 705,
-        "unit_price": 8.25
-      },
-      {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
+        "sku": "PCB-002",
+        "name": "Dual Layer PCB Assembly",
         "quantity": 211,
         "unit_price": 110.5
       }
@@ -3680,7 +3362,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-03-16T17:34:00",
     "expected_delivery": "2025-03-27T17:34:00",
-    "total_value": 37803.28,
+    "total_value": 37801.54,
     "actual_delivery": "2025-03-26T17:34:00"
   },
   {
@@ -3689,8 +3371,8 @@
     "customer": "Advanced Components Inc",
     "items": [
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "TMP-201",
+        "name": "Temperature Sensor Module",
         "quantity": 655,
         "unit_price": 15.99
       }
@@ -3715,8 +3397,8 @@
         "unit_price": 7.75
       },
       {
-        "sku": "DRV-405",
-        "name": "H-Bridge Motor Driver",
+        "sku": "MCU-401",
+        "name": "8-bit Microcontroller",
         "quantity": 59,
         "unit_price": 325.0
       }
@@ -3768,20 +3450,8 @@
       {
         "sku": "STP-303",
         "name": "Stepper Motor NEMA 17",
-        "quantity": 597,
-        "unit_price": 325.0
-      },
-      {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 429,
-        "unit_price": 15.99
-      },
-      {
-        "sku": "SRV-302",
-        "name": "Standard Servo Motor",
-        "quantity": 268,
-        "unit_price": 125.0
+        "quantity": 1294,
+        "unit_price": 181.13
       }
     ],
     "status": "Processing",
@@ -3789,7 +3459,7 @@
     "category": "Actuators",
     "order_date": "2025-03-05T15:48:00",
     "expected_delivery": "2025-03-15T15:48:00",
-    "total_value": 234384.71
+    "total_value": 234382.22
   },
   {
     "id": "153",
@@ -3803,8 +3473,8 @@
         "unit_price": 95.0
       },
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "TMP-201",
+        "name": "Temperature Sensor Module",
         "quantity": 541,
         "unit_price": 110.5
       }
@@ -3823,14 +3493,14 @@
     "customer": "Stellar Components Ltd",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "HMD-202",
+        "name": "Humidity Sensor Module",
         "quantity": 296,
         "unit_price": 110.5
       },
       {
-        "sku": "LDR-208",
-        "name": "Light Dependent Resistor",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 643,
         "unit_price": 12.75
       }
@@ -3849,8 +3519,8 @@
     "customer": "Elite Systems Corp",
     "items": [
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 593,
         "unit_price": 8.5
       }
@@ -3901,14 +3571,14 @@
     "customer": "TechBuild Industries",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "TMP-201",
+        "name": "Temperature Sensor Module",
         "quantity": 293,
         "unit_price": 125.0
       },
       {
-        "sku": "PRS-203",
-        "name": "Pressure Sensor Module",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 444,
         "unit_price": 29.99
       }
@@ -3947,14 +3617,14 @@
     "customer": "Dynamic Systems Ltd",
     "items": [
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 620,
         "unit_price": 125.0
       },
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 178,
         "unit_price": 34.5
       }
@@ -3973,14 +3643,14 @@
     "customer": "TechSolutions Group",
     "items": [
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 290,
         "unit_price": 15.99
       },
       {
-        "sku": "PRX-204",
-        "name": "Proximity Sensor",
+        "sku": "HMD-202",
+        "name": "Humidity Sensor Module",
         "quantity": 457,
         "unit_price": 8.25
       }
@@ -3999,14 +3669,14 @@
     "customer": "PrecisionWorks Inc",
     "items": [
       {
-        "sku": "PRX-204",
-        "name": "Proximity Sensor",
+        "sku": "PRS-203",
+        "name": "Pressure Sensor Module",
         "quantity": 240,
         "unit_price": 156.0
       },
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "LDR-208",
+        "name": "Light Dependent Resistor",
         "quantity": 814,
         "unit_price": 8.25
       }
@@ -4024,8 +3694,8 @@
     "customer": "Nexus Engineering",
     "items": [
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "LDR-208",
+        "name": "Light Dependent Resistor",
         "quantity": 455,
         "unit_price": 125.0
       },
@@ -4049,8 +3719,8 @@
     "customer": "Elite Systems Corp",
     "items": [
       {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
+        "sku": "STP-303",
+        "name": "Stepper Motor NEMA 17",
         "quantity": 541,
         "unit_price": 725.0
       }
@@ -4075,8 +3745,8 @@
         "unit_price": 34.5
       },
       {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
+        "sku": "PCB-001",
+        "name": "Single Layer PCB Assembly",
         "quantity": 681,
         "unit_price": 29.99
       }
@@ -4114,8 +3784,8 @@
     "customer": "MegaCorp Industries",
     "items": [
       {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 810,
         "unit_price": 29.99
       }
@@ -4134,14 +3804,14 @@
     "customer": "Cascade Manufacturing",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 772,
         "unit_price": 8.5
       },
       {
-        "sku": "SPR-601",
-        "name": "Coil Spring Heavy Duty",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 825,
         "unit_price": 95.0
       }
@@ -4186,8 +3856,8 @@
         "unit_price": 110.5
       },
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 329,
         "unit_price": 15.99
       }
@@ -4206,22 +3876,16 @@
     "customer": "Cascade Manufacturing",
     "items": [
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
-        "quantity": 72,
-        "unit_price": 110.5
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
+        "quantity": 644,
+        "unit_price": 150.91
       },
       {
-        "sku": "LDR-208",
-        "name": "Light Dependent Resistor",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 405,
         "unit_price": 8.5
-      },
-      {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
-        "quantity": 572,
-        "unit_price": 156.0
       }
     ],
     "status": "Backordered",
@@ -4229,7 +3893,7 @@
     "category": "Sensors",
     "order_date": "2025-05-15T14:07:00",
     "expected_delivery": "2025-05-24T14:07:00",
-    "total_value": 100630.5
+    "total_value": 100628.54
   },
   {
     "id": "171",
@@ -4237,8 +3901,8 @@
     "customer": "Superior Manufacturing",
     "items": [
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "SPR-602",
+        "name": "Compression Spring",
         "quantity": 965,
         "unit_price": 15.99
       },
@@ -4262,8 +3926,8 @@
     "customer": "ProManufacturing LLC",
     "items": [
       {
-        "sku": "SPR-601",
-        "name": "Coil Spring Heavy Duty",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 118,
         "unit_price": 12.75
       }
@@ -4288,8 +3952,8 @@
         "unit_price": 125.0
       },
       {
-        "sku": "SPR-601",
-        "name": "Coil Spring Heavy Duty",
+        "sku": "SPR-602",
+        "name": "Compression Spring",
         "quantity": 344,
         "unit_price": 725.0
       },
@@ -4373,8 +4037,8 @@
     "customer": "Omega Manufacturing",
     "items": [
       {
-        "sku": "DRV-405",
-        "name": "H-Bridge Motor Driver",
+        "sku": "PWM-404",
+        "name": "PWM Motor Controller",
         "quantity": 1093,
         "unit_price": 7.75
       }
@@ -4393,22 +4057,10 @@
     "customer": "Premier Industries",
     "items": [
       {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 492,
-        "unit_price": 325.0
-      },
-      {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 723,
-        "unit_price": 12.75
-      },
-      {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
-        "quantity": 331,
-        "unit_price": 7.75
+        "sku": "STP-303",
+        "name": "Stepper Motor NEMA 17",
+        "quantity": 1546,
+        "unit_price": 111.05
       }
     ],
     "status": "Delivered",
@@ -4416,7 +4068,7 @@
     "category": "Actuators",
     "order_date": "2025-06-02T10:04:00",
     "expected_delivery": "2025-06-09T10:04:00",
-    "total_value": 171683.5,
+    "total_value": 171683.30,
     "actual_delivery": "2025-06-08T10:04:00"
   },
   {
@@ -4425,8 +4077,8 @@
     "customer": "Titan Products Inc",
     "items": [
       {
-        "sku": "SRV-302",
-        "name": "Standard Servo Motor",
+        "sku": "LAC-305",
+        "name": "Linear Actuator 12V",
         "quantity": 871,
         "unit_price": 325.0
       }
@@ -4445,8 +4097,8 @@
     "customer": "Titan Products Inc",
     "items": [
       {
-        "sku": "LDR-208",
-        "name": "Light Dependent Resistor",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 194,
         "unit_price": 8.5
       }
@@ -4470,8 +4122,8 @@
         "unit_price": 12.75
       },
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "ACC-206",
+        "name": "3-Axis Accelerometer",
         "quantity": 722,
         "unit_price": 34.5
       }
@@ -4496,16 +4148,10 @@
         "unit_price": 29.99
       },
       {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
-        "quantity": 142,
-        "unit_price": 95.0
-      },
-      {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
-        "quantity": 811,
-        "unit_price": 24.99
+        "sku": "PCB-002",
+        "name": "Dual Layer PCB Assembly",
+        "quantity": 953,
+        "unit_price": 35.42
       }
     ],
     "status": "Delivered",
@@ -4513,7 +4159,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-06-05T10:34:00",
     "expected_delivery": "2025-06-16T10:34:00",
-    "total_value": 59548.29,
+    "total_value": 59546.66,
     "actual_delivery": "2025-06-16T10:34:00"
   },
   {
@@ -4522,16 +4168,10 @@
     "customer": "Cascade Manufacturing",
     "items": [
       {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 353,
-        "unit_price": 24.99
-      },
-      {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 799,
-        "unit_price": 110.5
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
+        "quantity": 1152,
+        "unit_price": 84.30
       }
     ],
     "status": "Delivered",
@@ -4539,7 +4179,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-06-13T14:11:00",
     "expected_delivery": "2025-06-23T14:11:00",
-    "total_value": 97110.97,
+    "total_value": 97113.60,
     "actual_delivery": "2025-06-19T14:11:00"
   },
   {
@@ -4548,8 +4188,8 @@
     "customer": "Premier Industries",
     "items": [
       {
-        "sku": "LED-406",
-        "name": "LED Driver IC",
+        "sku": "PWM-404",
+        "name": "PWM Motor Controller",
         "quantity": 592,
         "unit_price": 7.75
       }
@@ -4573,14 +4213,14 @@
         "unit_price": 8.25
       },
       {
-        "sku": "MCU-401",
-        "name": "8-bit Microcontroller",
+        "sku": "LED-406",
+        "name": "LED Driver IC",
         "quantity": 755,
         "unit_price": 8.5
       },
       {
-        "sku": "MCU-402",
-        "name": "32-bit ARM Microcontroller",
+        "sku": "DRV-405",
+        "name": "H-Bridge Motor Driver",
         "quantity": 813,
         "unit_price": 24.99
       }
@@ -4599,14 +4239,14 @@
     "customer": "Innovative Parts Co",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "HMD-202",
+        "name": "Humidity Sensor Module",
         "quantity": 832,
         "unit_price": 95.0
       },
       {
-        "sku": "GYR-207",
-        "name": "Gyroscope Module",
+        "sku": "TMP-201",
+        "name": "Temperature Sensor Module",
         "quantity": 607,
         "unit_price": 34.5
       }
@@ -4625,14 +4265,14 @@
     "customer": "PrecisionWorks Inc",
     "items": [
       {
-        "sku": "ACC-206",
-        "name": "3-Axis Accelerometer",
+        "sku": "ULS-205",
+        "name": "Ultrasonic Distance Sensor",
         "quantity": 542,
         "unit_price": 156.0
       },
       {
-        "sku": "SPR-601",
-        "name": "Coil Spring Heavy Duty",
+        "sku": "PLY-901",
+        "name": "Drive Pulley",
         "quantity": 964,
         "unit_price": 725.0
       }
@@ -4657,8 +4297,8 @@
         "unit_price": 325.0
       },
       {
-        "sku": "STP-303",
-        "name": "Stepper Motor NEMA 17",
+        "sku": "SRV-301",
+        "name": "Micro Servo Motor",
         "quantity": 530,
         "unit_price": 7.75
       }
@@ -4702,8 +4342,8 @@
     "customer": "BuildTech Co",
     "items": [
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 838,
         "unit_price": 125.0
       }
@@ -4721,14 +4361,14 @@
     "customer": "Omega Manufacturing",
     "items": [
       {
-        "sku": "GYR-207",
-        "name": "Gyroscope Module",
+        "sku": "PRS-203",
+        "name": "Pressure Sensor Module",
         "quantity": 874,
         "unit_price": 110.5
       },
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "PLY-901",
+        "name": "Drive Pulley",
         "quantity": 766,
         "unit_price": 7.75
       }
@@ -4766,8 +4406,8 @@
     "customer": "Innovative Parts Co",
     "items": [
       {
-        "sku": "LDR-208",
-        "name": "Light Dependent Resistor",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 723,
         "unit_price": 8.5
       }
@@ -4787,20 +4427,8 @@
       {
         "sku": "STP-303",
         "name": "Stepper Motor NEMA 17",
-        "quantity": 287,
-        "unit_price": 325.0
-      },
-      {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 254,
-        "unit_price": 725.0
-      },
-      {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 355,
-        "unit_price": 15.99
+        "quantity": 896,
+        "unit_price": 315.96
       }
     ],
     "status": "Delivered",
@@ -4808,7 +4436,7 @@
     "category": "Actuators",
     "order_date": "2025-08-07T14:06:00",
     "expected_delivery": "2025-08-16T14:06:00",
-    "total_value": 283101.45,
+    "total_value": 283100.16,
     "actual_delivery": "2025-08-15T14:06:00"
   },
   {
@@ -4817,8 +4445,8 @@
     "customer": "Vanguard Systems",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 516,
         "unit_price": 34.5
       }
@@ -4837,14 +4465,14 @@
     "customer": "Titan Products Inc",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 440,
         "unit_price": 12.75
       },
       {
-        "sku": "GYR-207",
-        "name": "Gyroscope Module",
+        "sku": "HMD-202",
+        "name": "Humidity Sensor Module",
         "quantity": 748,
         "unit_price": 445.0
       }
@@ -4863,16 +4491,10 @@
     "customer": "Vanguard Systems",
     "items": [
       {
-        "sku": "MCU-401",
-        "name": "8-bit Microcontroller",
-        "quantity": 902,
-        "unit_price": 6.5
-      },
-      {
-        "sku": "LED-406",
-        "name": "LED Driver IC",
-        "quantity": 639,
-        "unit_price": 125.0
+        "sku": "PWM-404",
+        "name": "PWM Motor Controller",
+        "quantity": 1541,
+        "unit_price": 55.64
       }
     ],
     "status": "Delivered",
@@ -4880,7 +4502,7 @@
     "category": "Controllers",
     "order_date": "2025-08-29T09:14:00",
     "expected_delivery": "2025-09-08T09:14:00",
-    "total_value": 85738.0,
+    "total_value": 85741.24,
     "actual_delivery": "2025-09-07T09:14:00"
   },
   {
@@ -4891,20 +4513,14 @@
       {
         "sku": "GYR-207",
         "name": "Gyroscope Module",
-        "quantity": 336,
-        "unit_price": 12.75
+        "quantity": 1111,
+        "unit_price": 70.13
       },
       {
-        "sku": "ACC-206",
-        "name": "3-Axis Accelerometer",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 92,
         "unit_price": 156.0
-      },
-      {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
-        "quantity": 775,
-        "unit_price": 95.0
       }
     ],
     "status": "Shipped",
@@ -4912,7 +4528,7 @@
     "category": "Sensors",
     "order_date": "2025-08-22T10:07:00",
     "expected_delivery": "2025-09-02T10:07:00",
-    "total_value": 92261.0
+    "total_value": 92266.43
   },
   {
     "id": "199",
@@ -4920,8 +4536,8 @@
     "customer": "Quantum Manufacturing",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 92,
         "unit_price": 24.99
       }
@@ -4940,8 +4556,8 @@
     "customer": "BuildTech Co",
     "items": [
       {
-        "sku": "GYR-207",
-        "name": "Gyroscope Module",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 917,
         "unit_price": 8.5
       }
@@ -4966,8 +4582,8 @@
         "unit_price": 95.0
       },
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
+        "sku": "TMP-201",
+        "name": "Temperature Sensor Module",
         "quantity": 306,
         "unit_price": 6.5
       }
@@ -4985,22 +4601,10 @@
     "customer": "Advanced Components Inc",
     "items": [
       {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 198,
-        "unit_price": 24.99
-      },
-      {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 434,
-        "unit_price": 34.5
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 765,
-        "unit_price": 6.5
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
+        "quantity": 1397,
+        "unit_price": 17.82
       }
     ],
     "status": "Delivered",
@@ -5008,7 +4612,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-09-13T10:54:00",
     "expected_delivery": "2025-09-26T10:54:00",
-    "total_value": 24893.52,
+    "total_value": 24894.54,
     "actual_delivery": "2025-09-25T10:54:00"
   },
   {
@@ -5017,22 +4621,16 @@
     "customer": "Titan Products Inc",
     "items": [
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
-        "quantity": 506,
-        "unit_price": 15.99
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
+        "quantity": 1299,
+        "unit_price": 73.69
       },
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 574,
         "unit_price": 89.5
-      },
-      {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
-        "quantity": 793,
-        "unit_price": 110.5
       }
     ],
     "status": "Shipped",
@@ -5040,7 +4638,7 @@
     "category": "Sensors",
     "order_date": "2025-09-09T09:30:00",
     "expected_delivery": "2025-09-17T09:30:00",
-    "total_value": 147090.44
+    "total_value": 147096.31
   },
   {
     "id": "204",
@@ -5054,8 +4652,8 @@
         "unit_price": 89.5
       },
       {
-        "sku": "PRX-204",
-        "name": "Proximity Sensor",
+        "sku": "TMP-201",
+        "name": "Temperature Sensor Module",
         "quantity": 938,
         "unit_price": 95.0
       }
@@ -5073,22 +4671,10 @@
     "customer": "Innovative Parts Co",
     "items": [
       {
-        "sku": "LED-406",
-        "name": "LED Driver IC",
-        "quantity": 874,
-        "unit_price": 7.75
-      },
-      {
-        "sku": "LED-406",
-        "name": "LED Driver IC",
-        "quantity": 654,
-        "unit_price": 445.0
-      },
-      {
-        "sku": "DSP-403",
-        "name": "Digital Signal Processor",
-        "quantity": 250,
-        "unit_price": 125.0
+        "sku": "PWM-404",
+        "name": "PWM Motor Controller",
+        "quantity": 1778,
+        "unit_price": 185.07
       }
     ],
     "status": "Delivered",
@@ -5096,7 +4682,7 @@
     "category": "Controllers",
     "order_date": "2025-09-15T12:44:00",
     "expected_delivery": "2025-09-27T12:44:00",
-    "total_value": 329053.5,
+    "total_value": 329054.46,
     "actual_delivery": "2025-09-25T12:44:00"
   },
   {
@@ -5170,22 +4756,10 @@
     "customer": "Dynamic Systems Ltd",
     "items": [
       {
-        "sku": "PCB-001",
-        "name": "Single Layer PCB Assembly",
-        "quantity": 127,
-        "unit_price": 34.5
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 597,
-        "unit_price": 445.0
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 319,
-        "unit_price": 110.5
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
+        "quantity": 1043,
+        "unit_price": 292.71
       }
     ],
     "status": "Shipped",
@@ -5193,7 +4767,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-09-12T14:21:00",
     "expected_delivery": "2025-09-23T14:21:00",
-    "total_value": 305296.0
+    "total_value": 305296.53
   },
   {
     "id": "210",
@@ -5201,8 +4775,8 @@
     "customer": "Fusion Industries",
     "items": [
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 665,
         "unit_price": 110.5
       }
@@ -5220,8 +4794,8 @@
     "customer": "Omega Manufacturing",
     "items": [
       {
-        "sku": "STP-303",
-        "name": "Stepper Motor NEMA 17",
+        "sku": "LAC-305",
+        "name": "Linear Actuator 12V",
         "quantity": 862,
         "unit_price": 325.0
       }
@@ -5245,8 +4819,8 @@
         "unit_price": 15.99
       },
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 903,
         "unit_price": 89.5
       }
@@ -5265,8 +4839,8 @@
     "customer": "Titan Products Inc",
     "items": [
       {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
         "quantity": 826,
         "unit_price": 24.99
       }
@@ -5291,8 +4865,8 @@
         "unit_price": 95.0
       },
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 528,
         "unit_price": 156.0
       }
@@ -5311,8 +4885,8 @@
     "customer": "Nexus Engineering",
     "items": [
       {
-        "sku": "PCB-003",
-        "name": "Multi Layer PCB Assembly",
+        "sku": "PCB-001",
+        "name": "Single Layer PCB Assembly",
         "quantity": 1031,
         "unit_price": 24.99
       },
@@ -5336,8 +4910,8 @@
     "customer": "Titan Products Inc",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 324,
         "unit_price": 24.99
       }
@@ -5355,14 +4929,14 @@
     "customer": "Horizon Technologies",
     "items": [
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "PRS-203",
+        "name": "Pressure Sensor Module",
         "quantity": 239,
         "unit_price": 89.5
       },
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "SPR-602",
+        "name": "Compression Spring",
         "quantity": 483,
         "unit_price": 156.0
       },
@@ -5386,8 +4960,8 @@
     "customer": "Fusion Industries",
     "items": [
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 77,
         "unit_price": 95.0
       },
@@ -5417,8 +4991,8 @@
         "unit_price": 95.0
       },
       {
-        "sku": "PRS-203",
-        "name": "Pressure Sensor Module",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 700,
         "unit_price": 7.75
       },
@@ -5455,8 +5029,8 @@
         "unit_price": 445.0
       },
       {
-        "sku": "STP-303",
-        "name": "Stepper Motor NEMA 17",
+        "sku": "SRV-301",
+        "name": "Micro Servo Motor",
         "quantity": 560,
         "unit_price": 8.5
       }
@@ -5474,22 +5048,16 @@
     "customer": "Advanced Components Inc",
     "items": [
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
-        "quantity": 459,
-        "unit_price": 95.0
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
+        "quantity": 729,
+        "unit_price": 92.96
       },
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 108,
         "unit_price": 445.0
-      },
-      {
-        "sku": "LDR-208",
-        "name": "Light Dependent Resistor",
-        "quantity": 270,
-        "unit_price": 89.5
       }
     ],
     "status": "Delivered",
@@ -5497,7 +5065,7 @@
     "category": "Sensors",
     "order_date": "2025-11-05T12:29:00",
     "expected_delivery": "2025-11-14T12:29:00",
-    "total_value": 115830.0
+    "total_value": 115827.84
   },
   {
     "id": "222",
@@ -5549,8 +5117,8 @@
     "customer": "MegaCorp Industries",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 174,
         "unit_price": 29.99
       }
@@ -5568,8 +5136,8 @@
     "customer": "Horizon Technologies",
     "items": [
       {
-        "sku": "PLY-901",
-        "name": "Drive Pulley",
+        "sku": "TMP-201",
+        "name": "Temperature Sensor Module",
         "quantity": 490,
         "unit_price": 89.5
       }
@@ -5606,16 +5174,10 @@
     "customer": "Precision Tools Inc",
     "items": [
       {
-        "sku": "SRV-302",
-        "name": "Standard Servo Motor",
-        "quantity": 755,
-        "unit_price": 325.0
-      },
-      {
-        "sku": "SRV-302",
-        "name": "Standard Servo Motor",
-        "quantity": 427,
-        "unit_price": 6.5
+        "sku": "LAC-305",
+        "name": "Linear Actuator 12V",
+        "quantity": 1182,
+        "unit_price": 209.94
       }
     ],
     "status": "Backordered",
@@ -5623,7 +5185,7 @@
     "category": "Actuators",
     "order_date": "2025-11-16T16:11:00",
     "expected_delivery": "2025-11-29T16:11:00",
-    "total_value": 248150.5
+    "total_value": 248149.08
   },
   {
     "id": "228",
@@ -5631,16 +5193,10 @@
     "customer": "MegaCorp Industries",
     "items": [
       {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 799,
-        "unit_price": 725.0
-      },
-      {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
-        "quantity": 517,
-        "unit_price": 125.0
+        "sku": "STP-303",
+        "name": "Stepper Motor NEMA 17",
+        "quantity": 1316,
+        "unit_price": 489.29
       }
     ],
     "status": "Backordered",
@@ -5648,7 +5204,7 @@
     "category": "Actuators",
     "order_date": "2025-11-02T10:10:00",
     "expected_delivery": "2025-11-13T10:10:00",
-    "total_value": 643900.0
+    "total_value": 643905.64
   },
   {
     "id": "229",
@@ -5656,8 +5212,8 @@
     "customer": "TechSolutions Group",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
+        "sku": "PCB-003",
+        "name": "Multi Layer PCB Assembly",
         "quantity": 226,
         "unit_price": 34.5
       }
@@ -5681,8 +5237,8 @@
         "unit_price": 12.75
       },
       {
-        "sku": "HMD-202",
-        "name": "Humidity Sensor Module",
+        "sku": "LDR-208",
+        "name": "Light Dependent Resistor",
         "quantity": 258,
         "unit_price": 34.5
       }
@@ -5700,14 +5256,14 @@
     "customer": "Vanguard Systems",
     "items": [
       {
-        "sku": "SPR-602",
-        "name": "Compression Spring",
+        "sku": "PRX-204",
+        "name": "Proximity Sensor",
         "quantity": 436,
         "unit_price": 89.5
       },
       {
-        "sku": "TMP-201",
-        "name": "Temperature Sensor Module",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 542,
         "unit_price": 156.0
       }
@@ -5725,8 +5281,8 @@
     "customer": "Nexus Engineering",
     "items": [
       {
-        "sku": "ULS-205",
-        "name": "Ultrasonic Distance Sensor",
+        "sku": "GYR-207",
+        "name": "Gyroscope Module",
         "quantity": 370,
         "unit_price": 95.0
       }
@@ -5744,14 +5300,14 @@
     "customer": "Advanced Components Inc",
     "items": [
       {
-        "sku": "ACC-206",
-        "name": "3-Axis Accelerometer",
+        "sku": "LDR-208",
+        "name": "Light Dependent Resistor",
         "quantity": 908,
         "unit_price": 89.5
       },
       {
-        "sku": "GYR-207",
-        "name": "Gyroscope Module",
+        "sku": "ULS-205",
+        "name": "Ultrasonic Distance Sensor",
         "quantity": 71,
         "unit_price": 29.99
       }
@@ -5769,22 +5325,10 @@
     "customer": "Fusion Industries",
     "items": [
       {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 170,
-        "unit_price": 34.5
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 738,
-        "unit_price": 89.5
-      },
-      {
-        "sku": "PCB-002",
-        "name": "Dual Layer PCB Assembly",
-        "quantity": 335,
-        "unit_price": 125.0
+        "sku": "PCB-004",
+        "name": "Flexible PCB Assembly",
+        "quantity": 1243,
+        "unit_price": 91.55
       }
     ],
     "status": "Processing",
@@ -5792,7 +5336,7 @@
     "category": "Circuit Boards",
     "order_date": "2025-11-30T16:15:00",
     "expected_delivery": "2025-12-10T16:15:00",
-    "total_value": 113791.0
+    "total_value": 113796.65
   },
   {
     "id": "235",
@@ -5800,8 +5344,8 @@
     "customer": "Dynamic Systems Ltd",
     "items": [
       {
-        "sku": "STP-303",
-        "name": "Stepper Motor NEMA 17",
+        "sku": "SRV-301",
+        "name": "Micro Servo Motor",
         "quantity": 424,
         "unit_price": 445.0
       },
@@ -5831,8 +5375,8 @@
         "unit_price": 125.0
       },
       {
-        "sku": "PRS-203",
-        "name": "Pressure Sensor Module",
+        "sku": "SPR-601",
+        "name": "Coil Spring Heavy Duty",
         "quantity": 136,
         "unit_price": 156.0
       }
@@ -5850,22 +5394,10 @@
     "customer": "Global Parts Ltd",
     "items": [
       {
-        "sku": "SRV-301",
-        "name": "Micro Servo Motor",
-        "quantity": 687,
-        "unit_price": 725.0
-      },
-      {
-        "sku": "SRV-302",
-        "name": "Standard Servo Motor",
-        "quantity": 183,
-        "unit_price": 12.75
-      },
-      {
-        "sku": "STP-304",
-        "name": "Stepper Motor NEMA 23",
-        "quantity": 650,
-        "unit_price": 445.0
+        "sku": "LAC-305",
+        "name": "Linear Actuator 12V",
+        "quantity": 1520,
+        "unit_price": 519.51
       }
     ],
     "status": "Delivered",
@@ -5873,7 +5405,7 @@
     "category": "Actuators",
     "order_date": "2025-12-31T15:02:00",
     "expected_delivery": "2026-01-10T15:02:00",
-    "total_value": 789658.25
+    "total_value": 789655.20
   },
   {
     "id": "238",
@@ -5887,8 +5419,8 @@
         "unit_price": 8.25
       },
       {
-        "sku": "MCU-402",
-        "name": "32-bit ARM Microcontroller",
+        "sku": "DSP-403",
+        "name": "Digital Signal Processor",
         "quantity": 412,
         "unit_price": 110.5
       }
@@ -5906,8 +5438,8 @@
     "customer": "Nexus Engineering",
     "items": [
       {
-        "sku": "SRV-302",
-        "name": "Standard Servo Motor",
+        "sku": "STP-303",
+        "name": "Stepper Motor NEMA 17",
         "quantity": 872,
         "unit_price": 725.0
       }
@@ -5925,22 +5457,10 @@
     "customer": "Superior Manufacturing",
     "items": [
       {
-        "sku": "MCU-401",
-        "name": "8-bit Microcontroller",
-        "quantity": 423,
-        "unit_price": 7.75
-      },
-      {
-        "sku": "LED-406",
-        "name": "LED Driver IC",
-        "quantity": 965,
-        "unit_price": 125.0
-      },
-      {
-        "sku": "DRV-405",
-        "name": "H-Bridge Motor Driver",
-        "quantity": 689,
-        "unit_price": 725.0
+        "sku": "PWM-404",
+        "name": "PWM Motor Controller",
+        "quantity": 2077,
+        "unit_price": 300.16
       }
     ],
     "status": "Delivered",
@@ -5948,7 +5468,7 @@
     "category": "Controllers",
     "order_date": "2025-12-18T17:39:00",
     "expected_delivery": "2025-12-25T17:39:00",
-    "total_value": 623428.25,
+    "total_value": 623432.32,
     "actual_delivery": "2025-12-24T17:39:00"
   },
   {
@@ -5983,8 +5503,8 @@
         "unit_price": 22.5
       },
       {
-        "sku": "PSU-503",
-        "name": "24V 3A Industrial Power Supply",
+        "sku": "PSU-505",
+        "name": "48V DC Power Supply Unit",
         "quantity": 116,
         "unit_price": 45.75
       }
@@ -6004,7 +5524,7 @@
     "items": [
       {
         "sku": "PSU-504",
-        "name": "Dual Output \u00b115V Power Supply",
+        "name": "Dual Output ±15V Power Supply",
         "quantity": 112,
         "unit_price": 38.25
       }
@@ -6023,8 +5543,8 @@
     "customer": "DataCenter Dynamics",
     "items": [
       {
-        "sku": "PSU-505",
-        "name": "48V DC Power Supply Unit",
+        "sku": "PSU-508",
+        "name": "Battery Backup Power Supply",
         "quantity": 85,
         "unit_price": 67.5
       },
@@ -6069,14 +5589,14 @@
     "customer": "Network Infrastructure Ltd",
     "items": [
       {
-        "sku": "PSU-508",
-        "name": "Battery Backup Power Supply",
+        "sku": "PSU-505",
+        "name": "48V DC Power Supply Unit",
         "quantity": 24,
         "unit_price": 185.5
       },
       {
-        "sku": "PSU-501",
-        "name": "5V 10A Switching Power Supply",
+        "sku": "PSU-502",
+        "name": "12V 5A Power Supply Module",
         "quantity": 125,
         "unit_price": 18.99
       }
@@ -6095,8 +5615,8 @@
     "customer": "Smart Systems Corp",
     "items": [
       {
-        "sku": "PSU-502",
-        "name": "12V 5A Power Supply Module",
+        "sku": "PSU-503",
+        "name": "24V 3A Industrial Power Supply",
         "quantity": 225,
         "unit_price": 22.5
       }
@@ -6115,14 +5635,14 @@
     "customer": "Manufacturing Solutions Inc",
     "items": [
       {
-        "sku": "PSU-503",
-        "name": "24V 3A Industrial Power Supply",
+        "sku": "PSU-504",
+        "name": "Dual Output ±15V Power Supply",
         "quantity": 144,
         "unit_price": 45.75
       },
       {
-        "sku": "PSU-506",
-        "name": "USB-C PD 100W Power Supply",
+        "sku": "PSU-501",
+        "name": "5V 10A Switching Power Supply",
         "quantity": 309,
         "unit_price": 29.99
       }
@@ -6141,8 +5661,8 @@
     "customer": "Global Tech Distributors",
     "items": [
       {
-        "sku": "PSU-504",
-        "name": "Dual Output \u00b115V Power Supply",
+        "sku": "PSU-502",
+        "name": "12V 5A Power Supply Module",
         "quantity": 111,
         "unit_price": 38.25
       },
@@ -6167,8 +5687,8 @@
     "customer": "Advanced Electronics Systems",
     "items": [
       {
-        "sku": "PSU-507",
-        "name": "Adjustable Bench Power Supply",
+        "sku": "PSU-503",
+        "name": "24V 3A Industrial Power Supply",
         "quantity": 73,
         "unit_price": 125.0
       }

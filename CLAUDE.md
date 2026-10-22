@@ -42,6 +42,9 @@ cd client
 npm install && npm run dev
 ```
 
+## Coding Conventions
+- Always document non-obvious logic changes with comments
+
 ## Key Patterns
 
 **Filter System**: 4 filters (Time Period, Warehouse, Category, Order Status) apply to all data via query params
@@ -52,8 +55,10 @@ npm install && npm run dev
 - `GET /api/inventory` - Filters: warehouse, category
 - `GET /api/orders` - Filters: warehouse, category, status, month
 - `GET /api/dashboard/summary` - All filters
-- `GET /api/demand`, `/api/backlog` - No filters
-- `GET /api/spending/*` - Summary, monthly, categories, transactions
+- `GET /api/demand`, `/api/backlog` - Filters: warehouse, category
+- `GET /api/spending/*` - Summary, monthly, categories (company-wide, no filters), transactions (filter: warehouse)
+- `GET /api/reports/quarterly`, `/api/reports/monthly-trends` - All filters
+- `GET`/`POST /api/restocking-orders` - Submitted restocking orders (in-memory)
 
 ## Common Issues
 1. Use unique keys in v-for (not `index`) - use `sku`, `month`, etc.
